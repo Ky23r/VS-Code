@@ -52,6 +52,7 @@
         "terminalCursor.foreground": "#ff00ee",
     },
     "editor.minimap.enabled": true,
+    "editor.minimap.autohide": false,
     "editor.minimap.side": "left",
     "editor.minimap.scale": 1,
     "editor.minimap.showSlider": "always",
@@ -205,7 +206,7 @@
         "cpp": "cd $dir && g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 -DLOCAL $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
-        "python": "python3 -u $fileName",
+        "python": "python -u $fileName",
         "perl": "perl",
         "perl6": "perl6",
         "ruby": "ruby",
@@ -360,6 +361,7 @@
 
 
     /* --- Python Settings --- */
+    "python.defaultInterpreterPath": "C:\\Program Files\\Python312\\python.exe",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": false,
     "[python]": {
