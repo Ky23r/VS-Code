@@ -1,0 +1,32 @@
+Better Comments
+Black Formatter
+Bongo Cat
+Bookmarks
+C/C++
+C/C++ Extension Pack
+C/C++ Themes
+CMake
+Cmake Tools
+Code Runner
+CodeSnap
+Color Highlight
+Debbuger for Java
+Error Lens
+Extension Pack for Java
+File Utils
+Git Graph
+Git History
+Gitlens - Git supercharged
+indent-rainbow
+IntelliCode
+IntelliCode API Usage Examples
+Language Support for Java(TM) by Red Hat
+Material Icon Theme
+Maven for Java
+Night Owl
+Project Manager for Java
+Pylance
+Python
+Python Debugger
+Test Runner for Java
+Trailing Spaces
