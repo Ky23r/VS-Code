@@ -318,7 +318,7 @@
     "files.autoSave": "onFocusChange",
     "files.trimTrailingWhitespace": true,
     "workbench.editor.closeOnFileDelete": true,
-    "files.enableTrash": false,
+    "files.enableTrash": true,
     "files.exclude": {
         "**/*exe": true,
         "**/*class": true,
