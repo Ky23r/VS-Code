@@ -334,7 +334,9 @@
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
     "C_Cpp.vcFormat.space.beforeInheritanceColon": true,
     "C_Cpp.vcFormat.space.beforeConstructorColon": true,
-    "C_Cpp.vcFormat.space.withinInitializerListBraces": false,
+    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
+    "C_Cpp.vcFormat.space.withinInitializerListBraces": true,
+    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
     "C_Cpp.vcFormat.newLine.beforeElse": false,
     "C_Cpp.vcFormat.newLine.beforeCatch": false,
     "[c]": {
