@@ -371,6 +371,16 @@
     },
 
 
+    /* --- Notebook Settings --- */
+    "notebook.lineNumbers": "on",
+    "notebook.outline.showCodeCells": true,
+    "notebook.insertFinalNewline": true,
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.output.wordWrap": true,
+    "notebook.output.scrolling": true,
+
+
     /* --- Debug Settings --- */
     "debug.gutterMiddleClickAction": "none",
 
