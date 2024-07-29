@@ -20,6 +20,11 @@ Gitlens - Git supercharged
 indent-rainbow
 IntelliCode
 IntelliCode API Usage Examples
+Jupyter
+Jupyter Cell Tags
+Jupyter Keymap
+Jupyter Notebook Renderers
+Jupyter Slide Show
 Language Support for Java(TM) by Red Hat
 Material Icon Theme
 Maven for Java
