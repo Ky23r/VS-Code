@@ -332,6 +332,7 @@
     "C_Cpp.formatting": "vcFormat",
     "C_Cpp.vcFormat.indent.caseLabels": true,
     "C_Cpp.vcFormat.indent.accessSpecifiers": false,
+    "C_Cpp.vcFormat.indent.lambdaBracesWhenParameter": false,
     "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
     "C_Cpp.vcFormat.space.beforeInheritanceColon": true,
     "C_Cpp.vcFormat.space.beforeConstructorColon": true,
