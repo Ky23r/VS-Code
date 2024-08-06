@@ -376,7 +376,9 @@
 
 
     /* --- Notebook Settings --- */
+    "notebook.compactView": false,
     "notebook.lineNumbers": "on",
+    "notebook.diff.enablePreview": false,
     "notebook.outline.showCodeCells": true,
     "notebook.insertFinalNewline": false,
     "notebook.formatOnCellExecution": true,
