@@ -20,7 +20,6 @@ Gitlens - Git supercharged
 indent-rainbow
 IntelliCode
 IntelliCode API Usage Examples
-isort
 Jupyter
 Jupyter Cell Tags
 Jupyter Keymap
