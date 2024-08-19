@@ -104,6 +104,7 @@
     "editor.acceptSuggestionOnEnter": "on",
     "editor.hover.enabled": true,
     "editor.lightbulb.enabled": "off",
+    "editor.lineNumbers": "relative",
     "editor.lineHeight": 35,
     "editor.renderLineHighlight": "line",
     "editor.renderLineHighlightOnlyWhenFocus": true,
