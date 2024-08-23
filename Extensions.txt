@@ -26,9 +26,11 @@ Jupyter Keymap
 Jupyter Notebook Renderers
 Jupyter Slide Show
 Language Support for Java(TM) by Red Hat
+Markdown Preview Enhanced
 Material Icon Theme
 Maven for Java
 Night Owl
+Path Intellisense
 Project Manager for Java
 Pylance
 Python
