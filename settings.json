@@ -50,6 +50,8 @@
         "editor.lineHighlightBackground": "#072635",
         "editorCursor.foreground": "#ff00ee",
         "terminalCursor.foreground": "#ff00ee",
+        "notebook.cellBorderColor": "#007aa7",
+        "notebook.focusedCellBorder": "#ffffff",
     },
     "editor.minimap.enabled": true,
     "editor.minimap.autohide": false,
