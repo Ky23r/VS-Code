@@ -127,6 +127,7 @@
     "editor.scrollbar.horizontalScrollbarSize": 10,
     "editor.scrollbar.vertical": "visible",
     "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.cursorSurroundingLines": 100,
     "editor.cursorBlinking": "expand",
     "editor.cursorWidth": 3,
     "editor.cursorSmoothCaretAnimation": "on",
@@ -273,6 +274,7 @@
     "errorLens.fontSize": "18",
     "errorLens.fontWeight": "300",
     "errorLens.fontStyleItalic": true,
+    "errorLens.scrollbarHackEnabled": true,
 
 
     /* --- Trailing Spaces Settings --- */
