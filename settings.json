@@ -60,6 +60,7 @@
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
     "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.wrapTabs": false,
     "workbench.editor.tabActionLocation": "right",
     "workbench.editor.openPositioning": "last",
