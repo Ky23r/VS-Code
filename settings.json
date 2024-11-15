@@ -53,6 +53,8 @@
         "notebook.cellBorderColor": "#007aa7",
         "notebook.focusedCellBorder": "#ffffff",
     },
+    "editor.glyphMargin": false,
+    "editor.folding": false,
     "editor.minimap.enabled": true,
     "editor.minimap.autohide": false,
     "editor.minimap.side": "left",
