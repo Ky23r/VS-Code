@@ -17,6 +17,7 @@ File Utils
 Git Graph
 Git History
 Gitlens - Git supercharged
+Gradle for Java
 indent-rainbow
 IntelliCode
 IntelliCode API Usage Examples
