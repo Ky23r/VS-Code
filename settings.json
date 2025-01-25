@@ -11,6 +11,7 @@
     "workbench.tips.enabled": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
+    "workbench.iconTheme": "vscode-icons",
     "workbench.colorCustomizations": {
         "titleBar.border": "#1e00ff",
         "tab.border": "#1e00ff",
@@ -268,9 +269,10 @@
     "code-runner.showExecutionMessage": true,
 
 
-    /* --- Material Icon Theme Settings --- */
-    "material-icon-theme.folders.theme": "classic",
-    "material-icon-theme.hidesExplorerArrows": true,
+    /* --- vscode-icons Settings --- */
+    "vsicons.dontShowNewVersionMessage": true,
+    "vsicons.presets.foldersAllDefaultIcon": true,
+    "vsicons.presets.hideExplorerArrows": true,
 
 
     /* --- Error Lens Settings --- */
@@ -308,10 +310,6 @@
 
     /* --- ColorTheme Settings --- */
     "workbench.colorTheme": "Night Owl (No Italics)",
-
-
-    /* --- IconTheme Settings --- */
-    "workbench.iconTheme": "material-icon-theme",
 
 
     /* --- ProductIconTheme Settings --- */
