@@ -30,6 +30,7 @@ Jupyter Slide Show
 Language Support for Java(TM) by Red Hat
 Markdown Preview Enhanced
 Maven for Java
+Multiple cursor case preserve
 Night Owl
 Path Intellisense
 Project Manager for Java
