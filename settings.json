@@ -11,6 +11,8 @@
     "workbench.tips.enabled": false,
     "editor.hideCursorInOverviewRuler": true,
     "editor.overviewRulerBorder": false,
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "workbench.editor.tabSizing": "shrink",
     "workbench.colorCustomizations": {
         "titleBar.border": "#1e00ff",
         "tab.border": "#1e00ff",
@@ -64,6 +66,7 @@
     "workbench.editor.titleScrollbarSizing": "large",
     "workbench.editor.highlightModifiedTabs": true,
     "workbench.editor.wrapTabs": false,
+    "workbench.settings.editor": "json",
     "workbench.editor.tabActionLocation": "right",
     "workbench.editor.openPositioning": "last",
     "workbench.editor.enablePreview": false,
@@ -145,10 +148,12 @@
 
     /* --- Explorer Settings --- */
     "explorer.openEditors.visible": 6,
+    "explorer.autoReveal": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
     "explorer.confirmPasteNative": false,
+    "explorer.sortOrder": "type",
 
 
     /* --- Terminal Settings --- */
@@ -190,6 +195,8 @@
     "terminal.integrated.rightClickBehavior": "nothing",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
     "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.tabs.enabled": false,
+    "terminal.integrated.tabs.focusMode": "singleClick",
     "terminal.integrated.tabs.location": "left",
     "terminal.integrated.tabs.hideCondition": "never",
     "terminal.integrated.tabs.showActions": "always",
@@ -209,13 +216,13 @@
     /* --- Code Runner Settings --- */
     "code-runner.executorMap": {
         "javascript": "node",
-        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cd $dir && gcc -std=c17 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "java": "clear && cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "clear && cd $dir && gcc -std=c17 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
-        "cpp": "cd $dir && g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 -DLOCAL $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
-        "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "clear && cd $dir && g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 -DLOCAL $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "objective-c": "clear && cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
-        "python": "python -u $fileName",
+        "python": "clear && python -u $fileName",
         "perl": "perl",
         "perl6": "perl6",
         "ruby": "ruby",
@@ -327,6 +334,8 @@
 
     /* --- Files Settings --- */
     "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
     "workbench.editor.closeOnFileDelete": true,
     "files.enableTrash": true,
@@ -334,6 +343,11 @@
         "**/*exe": true,
         "**/*class": true,
     },
+
+
+    /* --- Markdown Settings --- */
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": true,
 
 
     /* --- C_Cpp Settings --- */
@@ -390,7 +404,7 @@
     "notebook.lineNumbers": "on",
     "notebook.diff.enablePreview": false,
     "notebook.outline.showCodeCells": true,
-    "notebook.insertFinalNewline": false,
+    "notebook.insertFinalNewline": true,
     "notebook.formatOnCellExecution": true,
     "notebook.formatOnSave.enabled": true,
     "notebook.output.wordWrap": true,
