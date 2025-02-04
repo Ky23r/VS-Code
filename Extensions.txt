@@ -36,6 +36,7 @@ Pylance
 Python
 Python Debugger
 Rainbow CSV
+Reload
 Test Runner for Java
 Trailing Spaces
 vscode-icons
