@@ -12,6 +12,7 @@ CodeSnap
 Color Highlight
 Debbuger for Java
 Error Lens
+Excel Viewer
 Extension Pack for Java
 File Utils
 Git Graph
