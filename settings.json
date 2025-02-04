@@ -178,7 +178,7 @@
             "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
         },
     },
-    "terminal.integrated.defaultProfile.windows": "Windows PowerShell",
+    "terminal.integrated.defaultProfile.windows": "Command Prompt",
     "terminal.integrated.initialHint": false,
     "terminal.integrated.hideOnStartup": "always",
     "terminal.integrated.shellIntegration.history": 0,
