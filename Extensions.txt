@@ -35,6 +35,7 @@ Project Manager for Java
 Pylance
 Python
 Python Debugger
+Rainbow CSV
 Test Runner for Java
 Trailing Spaces
 vscode-icons
