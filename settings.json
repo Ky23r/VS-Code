@@ -2,6 +2,7 @@
     /* --- TitleBar Settings --- */
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
     "window.title": "",
 
 
@@ -109,6 +110,7 @@
     "editor.suggest.showVariables": true,
     "editor.suggest.showWords": true,
     "editor.suggest.showInlineDetails": false,
+    "editor.suggest.insertMode": "replace",
     "editor.inlineSuggest.enabled": false,
     "editor.quickSuggestionsDelay": 0,
     "editor.acceptSuggestionOnEnter": "on",
