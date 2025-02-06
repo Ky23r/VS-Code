@@ -161,6 +161,7 @@
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
+            "args": ["-NoLogo"],
             "icon": "terminal-powershell",
         },
         "Command Prompt": {
@@ -168,7 +169,7 @@
                 "${env:windir}\\Sysnative\\cmd.exe",
                 "${env:windir}\\System32\\cmd.exe",
             ],
-            "args": ["/Q", "/K", "cls"],
+            "args": ["/k"],
             "icon": "terminal-cmd",
         },
         "Git Bash": {
@@ -177,6 +178,8 @@
         },
         "Windows PowerShell": {
             "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": ["-NoLogo"],
+            "icon": "terminal-powershell",
         },
     },
     "terminal.integrated.defaultProfile.windows": "Command Prompt",
