@@ -182,7 +182,7 @@
             "icon": "terminal-powershell",
         },
     },
-    "terminal.integrated.defaultProfile.windows": "Command Prompt",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "terminal.integrated.initialHint": false,
     "terminal.integrated.hideOnStartup": "always",
     "terminal.integrated.shellIntegration.history": 0,
