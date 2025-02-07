@@ -419,6 +419,9 @@
     "notebook.output.wordWrap": true,
     "notebook.output.scrolling": true,
     "jupyter.askForKernelRestart": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "interactiveWindow.executeWithShiftEnter": true,
 
 
     /* --- Debug Settings --- */
