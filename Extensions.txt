@@ -11,6 +11,7 @@ Code Runner
 CodeSnap
 Color Highlight
 Debbuger for Java
+Edit CSV
 Error Lens
 Excel Viewer
 Extension Pack for Java
