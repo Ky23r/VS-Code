@@ -437,6 +437,11 @@
 
     /* --- ZenMode Settings --- */
     "zenMode.hideLineNumbers": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.restore": false,
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
 
 
     /* --- Trees & Lists Settings --- */
