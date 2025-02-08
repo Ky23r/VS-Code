@@ -14,6 +14,7 @@
     "editor.overviewRulerBorder": false,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
     "workbench.panel.showLabels": false,
     "workbench.colorCustomizations": {
         "titleBar.border": "#1e00ff",
@@ -134,9 +135,9 @@
     "editor.smoothScrolling": true,
     "editor.stickyScroll.enabled": false,
     "editor.stickyScroll.scrollWithEditor": false,
-    "editor.scrollbar.horizontalScrollbarSize": 10,
-    "editor.scrollbar.vertical": "visible",
-    "editor.scrollbar.verticalScrollbarSize": 10,
+    "editor.scrollbar.horizontalScrollbarSize": 12,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.verticalScrollbarSize": 12,
     "editor.cursorSurroundingLines": 100,
     "editor.cursorBlinking": "expand",
     "editor.cursorWidth": 3,
@@ -315,7 +316,7 @@
     ],
     "indentRainbow.errorColor": "rgba(255,165,0,0.1)",
     "indentRainbow.tabmixColor": "rgba(255,165,0,0.1)",
-    "indentRainbow.updateDelay": 10,
+    "indentRainbow.updateDelay": 0,
 
 
     /* --- Color Highlight Settings --- */
@@ -421,6 +422,7 @@
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "jupyter.interactiveWindow.creationMode": "perFile",
+    "interactiveWindow.collapseCellInputCode": "never",
     "interactiveWindow.executeWithShiftEnter": true,
 
 
