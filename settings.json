@@ -226,13 +226,13 @@
     /* --- Code Runner Settings --- */
     "code-runner.executorMap": {
         "javascript": "node",
-        "java": "cls && cd $dir && javac $fileName && java $fileNameWithoutExt",
-        "c": "cls && cd $dir && gcc -std=c17 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
+        "c": "cd $dir && gcc -std=c17 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "zig": "zig run",
-        "cpp": "cls && cd $dir && g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 -DLOCAL $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
+        "cpp": "cd $dir && g++ -std=c++20 -O2 -Wall -Wextra -pedantic -Wshadow -Wformat=2 -Wfloat-equal -Wconversion -Wlogical-op -Wshift-overflow=2 -Wduplicated-cond -Wcast-qual -Wcast-align -fmax-errors=1 -DLOCAL $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "objective-c": "cd $dir && gcc -framework Cocoa $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "php": "php",
-        "python": "cls && python -u $fileName",
+        "python": "python -u $fileName",
         "perl": "perl",
         "perl6": "perl6",
         "ruby": "ruby",
@@ -351,7 +351,6 @@
     "files.enableTrash": true,
     "files.exclude": {
         "**/*exe": true,
-        "**/*class": true,
     },
 
 
