@@ -111,7 +111,7 @@
     "editor.suggest.showVariables": true,
     "editor.suggest.showWords": true,
     "editor.suggest.showInlineDetails": false,
-    "editor.suggest.insertMode": "replace",
+    "editor.suggest.insertMode": "insert",
     "editor.inlineSuggest.enabled": false,
     "editor.quickSuggestionsDelay": 0,
     "editor.acceptSuggestionOnEnter": "on",
