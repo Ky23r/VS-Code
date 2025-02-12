@@ -1,12 +1,12 @@
 {
-    /* --- TitleBar Settings --- */
+    /* --- titleBar Settings --- */
     "workbench.layoutControl.enabled": false,
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
     "window.title": "",
 
 
-    /* --- Editor Settings --- */
+    /* --- editor Settings --- */
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
     "workbench.tips.enabled": false,
@@ -115,6 +115,7 @@
     "editor.inlineSuggest.enabled": false,
     "editor.quickSuggestionsDelay": 0,
     "editor.acceptSuggestionOnEnter": "on",
+    "editor.tabCompletion": "on",
     "editor.hover.enabled": true,
     "editor.lightbulb.enabled": "off",
     "editor.lineNumbers": "on",
@@ -146,21 +147,22 @@
     "editor.codeLens": false,
 
 
-    /* --- SideBar Settings --- */
+    /* --- sideBar Settings --- */
     "workbench.sideBar.location": "right",
 
 
-    /* --- Explorer Settings --- */
+    /* --- explorer Settings --- */
     "explorer.openEditors.visible": 6,
     "explorer.autoReveal": true,
     "explorer.confirmDragAndDrop": false,
     "explorer.confirmDelete": false,
     "explorer.compactFolders": false,
     "explorer.confirmPasteNative": false,
+    "explorer.incrementalNaming": "smart",
     "explorer.sortOrder": "type",
 
 
-    /* --- Terminal Settings --- */
+    /* --- terminal Settings --- */
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
@@ -214,16 +216,17 @@
     "terminal.integrated.focusAfterRun": "terminal",
 
 
-    /* --- Debug Console Settings --- */
+    /* --- debug Settings --- */
     "debug.console.fontSize": 16,
     "debug.console.historySuggestions": false,
+    "debug.gutterMiddleClickAction": "none",
 
 
-    /* --- Extensions Settings --- */
+    /* --- extensions Settings --- */
     "extensions.ignoreRecommendations": true,
 
 
-    /* --- Code Runner Settings --- */
+    /* --- code-runner Settings --- */
     "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -285,13 +288,13 @@
     "code-runner.showExecutionMessage": true,
 
 
-    /* --- vscode-icons Settings --- */
+    /* --- vsicons Settings --- */
     "vsicons.dontShowNewVersionMessage": true,
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.presets.hideExplorerArrows": true,
 
 
-    /* --- Error Lens Settings --- */
+    /* --- errorLens Settings --- */
     "errorLens.fontFamily": "Anonymous Pro",
     "errorLens.fontSize": "18",
     "errorLens.fontWeight": "400",
@@ -299,14 +302,14 @@
     "errorLens.scrollbarHackEnabled": true,
 
 
-    /* --- Trailing Spaces Settings --- */
+    /* --- trailing-spaces Settings --- */
     "trailing-spaces.borderColor": "rgba(255,165,0,0.1)",
     "trailing-spaces.backgroundColor": "rgba(255,165,0,0.1)",
     "trailing-spaces.trimOnSave": true,
     "trailing-spaces.showStatusBarMessage": false,
 
 
-    /* --- Indent Rainbow Settings --- */
+    /* --- indentRainbow Settings --- */
     "indentRainbow.indicatorStyle": "light",
     "indentRainbow.lightIndicatorStyleLineWidth": 2,
     "indentRainbow.colors": [
@@ -319,30 +322,30 @@
     "indentRainbow.updateDelay": 0,
 
 
-    /* --- Color Highlight Settings --- */
+    /* --- color-highlight Settings --- */
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "underline",
 
 
-    /* --- ColorTheme Settings --- */
+    /* --- colorTheme Settings --- */
     "workbench.colorTheme": "Night Owl (No Italics)",
 
 
-    /* --- IconTheme Settings --- */
+    /* --- iconTheme Settings --- */
     "workbench.iconTheme": "vscode-icons",
 
 
-    /* --- ProductIconTheme Settings --- */
+    /* --- productIconTheme Settings --- */
     "workbench.productIconTheme": "bongocat",
 
 
-    /* --- Security Settings --- */
+    /* --- security Settings --- */
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.untrustedFiles": "open",
 
 
-    /* --- Files Settings --- */
+    /* --- files Settings --- */
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
@@ -354,7 +357,7 @@
     },
 
 
-    /* --- Markdown Settings --- */
+    /* --- markdown Settings --- */
     "markdown.preview.scrollEditorWithPreview": true,
     "markdown.preview.scrollPreviewWithEditor": true,
 
@@ -362,6 +365,7 @@
     /* --- C_Cpp Settings --- */
     "C_Cpp.default.cppStandard": "c++20",
     "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.compilerPath": "g++",
     "C_Cpp.formatting": "vcFormat",
     "C_Cpp.vcFormat.indent.caseLabels": true,
     "C_Cpp.vcFormat.indent.accessSpecifiers": false,
@@ -382,13 +386,16 @@
         "editor.formatOnPaste": true,
         "editor.formatOnSave": true,
     },
+    "C_Cpp.default.defines": [
+        "LOCAL",
+    ],
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.autoAddFileAssociations": false,
     "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
     "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
 
 
-    /* --- Java Settings --- */
+    /* --- java Settings --- */
     "java.inlayHints.parameterNames.enabled": "none",
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
@@ -397,7 +404,7 @@
     },
 
 
-    /* --- Python Settings --- */
+    /* --- python Settings --- */
     "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": false,
@@ -408,7 +415,7 @@
     },
 
 
-    /* --- Notebook Settings --- */
+    /* --- notebook Settings --- */
     "notebook.compactView": false,
     "notebook.lineNumbers": "on",
     "notebook.diff.enablePreview": false,
@@ -425,16 +432,12 @@
     "interactiveWindow.executeWithShiftEnter": true,
 
 
-    /* --- Debug Settings --- */
-    "debug.gutterMiddleClickAction": "none",
-
-
-    /* --- Search Settings --- */
+    /* --- search Settings --- */
     "search.showLineNumbers": true,
     "search.quickOpen.includeHistory": false,
 
 
-    /* --- ZenMode Settings --- */
+    /* --- zenMode Settings --- */
     "zenMode.hideLineNumbers": false,
     "zenMode.hideActivityBar": false,
     "zenMode.hideStatusBar": false,
@@ -443,17 +446,21 @@
     "zenMode.centerLayout": false,
 
 
-    /* --- Trees & Lists Settings --- */
+    /* --- tree & list Settings --- */
     "workbench.list.smoothScrolling": true,
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.indent": 10,
     "workbench.tree.renderIndentGuides": "none",
 
 
-    /* --- CommandPalette Settings --- */
+    /* --- commandPalette Settings --- */
     "workbench.commandPalette.history": 0,
 
 
-    /* --- RedHat Settings --- */
+    /* --- telemetry Settings --- */
+    "telemetry.telemetryLevel": "off",
+
+
+    /* --- redhat Settings --- */
     "redhat.telemetry.enabled": false,
 }
