@@ -294,7 +294,7 @@
     /* --- Error Lens Settings --- */
     "errorLens.fontFamily": "Anonymous Pro",
     "errorLens.fontSize": "18",
-    "errorLens.fontWeight": "300",
+    "errorLens.fontWeight": "400",
     "errorLens.fontStyleItalic": true,
     "errorLens.scrollbarHackEnabled": true,
 
