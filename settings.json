@@ -57,7 +57,7 @@
         "editorCursor.foreground": "#ff00ee",
         "terminalCursor.foreground": "#ff00ee",
         "notebook.cellBorderColor": "#007aa7",
-        "notebook.focusedCellBorder": "#ffffff",
+        "notebook.focusedCellBorder": "#ffffff"
     },
     "editor.glyphMargin": false,
     "editor.folding": false,
@@ -130,6 +130,24 @@
     "editor.fontLigatures": false,
     "editor.fontWeight": 400,
     "editor.letterSpacing": 0.5,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "comment.line",
+                    "comment.line.double-slash",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
     "editor.bracketPairColorization.enabled": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.guides.indentation": true,
@@ -168,24 +186,24 @@
         "PowerShell": {
             "source": "PowerShell",
             "args": ["-NoLogo"],
-            "icon": "terminal-powershell",
+            "icon": "terminal-powershell"
         },
         "Command Prompt": {
             "path": [
                 "${env:windir}\\Sysnative\\cmd.exe",
-                "${env:windir}\\System32\\cmd.exe",
+                "${env:windir}\\System32\\cmd.exe"
             ],
             "args": ["/k"],
-            "icon": "terminal-cmd",
+            "icon": "terminal-cmd"
         },
         "Git Bash": {
             "source": "Git Bash",
-            "path": "C:\\Program Files\\Git\\bin\\bash.exe",
+            "path": "C:\\Program Files\\Git\\bin\\bash.exe"
         },
         "Windows PowerShell": {
             "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
             "args": ["-NoLogo"],
-            "icon": "terminal-powershell",
+            "icon": "terminal-powershell"
         },
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
@@ -281,7 +299,7 @@
         "fortran_fixed-form": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "fortran": "cd $dir && gfortran $fileName -o $fileNameWithoutExt && $dir$fileNameWithoutExt",
         "sml": "cd $dir && sml $fileName",
-        "mojo": "mojo run",
+        "mojo": "mojo run"
     },
     "code-runner.saveFileBeforeRun": true,
     "code-runner.saveAllFilesBeforeRun": true,
@@ -316,7 +334,7 @@
     "indentRainbow.colors": [
         "rgba(255,234,0,0.3)",
         "rgba(199,125,255,0.3)",
-        "rgba(248,249,250,0.3)",
+        "rgba(248,249,250,0.3)"
     ],
     "indentRainbow.errorColor": "rgba(255,165,0,0.1)",
     "indentRainbow.tabmixColor": "rgba(255,165,0,0.1)",
@@ -354,7 +372,7 @@
     "workbench.editor.closeOnFileDelete": true,
     "files.enableTrash": true,
     "files.exclude": {
-        "**/*exe": true,
+        "**/*exe": true
     },
 
 
@@ -381,14 +399,14 @@
     "C_Cpp.vcFormat.newLine.beforeCatch": false,
     "[c]": {
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
     "[cpp]": {
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
     "C_Cpp.default.defines": [
-        "LOCAL",
+        "LOCAL"
     ],
     "C_Cpp.errorSquiggles": "enabled",
     "C_Cpp.autoAddFileAssociations": false,
@@ -401,7 +419,7 @@
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
 
 
@@ -412,7 +430,7 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
+        "editor.formatOnSave": true
     },
 
 
