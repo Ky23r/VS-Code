@@ -427,6 +427,7 @@
     "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": true,
+    "python.terminal.focusAfterLaunch": true,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnPaste": true,
