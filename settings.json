@@ -35,6 +35,7 @@
         "statusBarItem.remoteBackground": "#6b1c5e",
         "activityBar.inactiveForeground": "#ff00cc",
         "activityBar.foreground": "#ff00cc",
+        "activityBar.activeBorder": "#ffffff",
         "editorOverviewRuler.border": "#0000",
         "editorOverviewRuler.findMatchForeground": "#0000",
         "editorOverviewRuler.rangeHighlightForeground": "#0000",
