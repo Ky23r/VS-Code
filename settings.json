@@ -425,6 +425,8 @@
 
 
     /* --- java Settings --- */
+    "java.help.showReleaseNotes": false,
+    "java.silentNotification": true,
     "java.inlayHints.parameterNames.enabled": "none",
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
