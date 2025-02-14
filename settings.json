@@ -17,7 +17,8 @@
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
     "workbench.panel.showLabels": false,
     "workbench.colorCustomizations": {
-        "titleBar.activeForeground": "#ffffff",
+        "titleBar.activeForeground": "#ff00cc",
+        "titleBar.inactiveForeground": "#ff00cc",
         "titleBar.border": "#f200ff",
         "icon.foreground": "#ff00cc",
         "tab.border": "#f200ff",
