@@ -11,6 +11,7 @@ Code Runner
 CodeSnap
 Color Highlight
 Debbuger for Java
+Default Python Kernels for Jupyter Notebooks
 Edit CSV
 Error Lens
 Excel Viewer
