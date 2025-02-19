@@ -382,9 +382,7 @@
     "files.trimTrailingWhitespace": true,
     "workbench.editor.closeOnFileDelete": true,
     "files.enableTrash": true,
-    "files.exclude": {
-        "**/*exe": true
-    },
+    "files.exclude": {},
 
 
     /* --- markdown Settings --- */
