@@ -375,10 +375,6 @@
     "security.workspace.trust.untrustedFiles": "open",
 
 
-    /* --- cmake Settings ---*/
-    "cmake.showOptionsMovedNotification": false,
-
-
     /* --- files Settings --- */
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
@@ -387,14 +383,18 @@
     "workbench.editor.closeOnFileDelete": true,
     "files.enableTrash": true,
     "files.exclude": {
-        "**/*exe": true,
-        "**/*class": true
+        "**/*exe": true
     },
 
 
     /* --- markdown Settings --- */
     "markdown.preview.scrollEditorWithPreview": true,
     "markdown.preview.scrollPreviewWithEditor": true,
+
+
+    /* --- cmake Settings --- */
+    "cmake.showConfigureWithDebuggerNotification": false,
+    "cmake.showOptionsMovedNotification": false,
 
 
     /* --- C_Cpp Settings --- */
