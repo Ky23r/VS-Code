@@ -375,6 +375,10 @@
     "security.workspace.trust.untrustedFiles": "open",
 
 
+    /* --- cmake Settings ---*/
+    "cmake.showOptionsMovedNotification": false,
+
+
     /* --- files Settings --- */
     "files.autoSave": "onFocusChange",
     "files.insertFinalNewline": true,
@@ -383,7 +387,8 @@
     "workbench.editor.closeOnFileDelete": true,
     "files.enableTrash": true,
     "files.exclude": {
-        "**/*exe": true
+        "**/*exe": true,
+        "**/*class": true
     },
 
 
