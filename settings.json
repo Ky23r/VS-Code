@@ -432,6 +432,7 @@
     "java.help.showReleaseNotes": false,
     "java.silentNotification": true,
     "java.inlayHints.parameterNames.enabled": "none",
+    "java.project.outputPath": "out",
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
         "editor.formatOnPaste": true,
