@@ -32,16 +32,4 @@
         "key": "ctrl+alt+n",
         "command": "code-runner.run"
     },
-    {
-        "key": "ctrl+alt+,",
-        "command": "java.debug.runJavaFile"
-    },
-    {
-        "key": "ctrl+alt+.",
-        "command": "python.execInTerminal-icon"
-    },
-    {
-        "key": "ctrl+alt+;",
-        "command": "C_Cpp.BuildAndRunFile"
-    }
 ]
