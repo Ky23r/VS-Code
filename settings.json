@@ -469,6 +469,7 @@
     "jupyter.interactiveWindow.creationMode": "perFile",
     "interactiveWindow.collapseCellInputCode": "never",
     "interactiveWindow.executeWithShiftEnter": true,
+    "notebook.breadcrumbs.showCodeCells": false,
 
 
     /* --- search Settings --- */
