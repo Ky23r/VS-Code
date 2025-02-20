@@ -18,7 +18,6 @@
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.value": 10,
     "workbench.panel.showLabels": false,
-    "workbench.activityBar.location": "top",
     "workbench.colorCustomizations": {
         "titleBar.activeForeground": "#ff00cc",
         "titleBar.inactiveForeground": "#ff00cc",
