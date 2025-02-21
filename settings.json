@@ -333,6 +333,11 @@
     "errorLens.fontWeight": "400",
     "errorLens.fontStyleItalic": true,
     "errorLens.scrollbarHackEnabled": true,
+    "errorLens.followCursor": "activeLine",
+    "errorLens.messageBackgroundMode": "none",
+    "errorLens.enableOnDiffView": true,
+    "errorLens.gutterIconsEnabled": true,
+    "errorLens.gutterIconSize": "70%",
 
 
     /* --- trailing-spaces Settings --- */
