@@ -253,6 +253,8 @@
     "debug.console.fontSize": 16,
     "debug.console.historySuggestions": false,
     "debug.gutterMiddleClickAction": "none",
+    "debug.terminal.clearBeforeReusing": true,
+    "debug.showVariableTypes": true,
 
 
     /* --- extensions Settings --- */
