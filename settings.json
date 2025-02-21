@@ -70,7 +70,15 @@
         "editorCursor.foreground": "#ff00ee",
         "terminalCursor.foreground": "#ff00ee",
         "notebook.cellBorderColor": "#007aa7",
-        "notebook.focusedCellBorder": "#ffffff"
+        "notebook.focusedCellBorder": "#ffffff",
+        "editorError.foreground": "#ff0000",
+        "editorWarning.foreground": "#c2ee00",
+        "editorInfo.foreground": "#00eff8",
+        "editorHint.foreground": "#00eeae",
+        "errorLens.errorForeground": "#ff0000",
+        "errorLens.warningForeground": "#c2ee00",
+        "errorLens.infoForeground": "#00eff8",
+        "errorLens.hintForeground": "#00eeae"
     },
     "editor.glyphMargin": true,
     "editor.folding": false,
@@ -332,8 +340,16 @@
     /* --- errorLens Settings --- */
     "errorLens.fontFamily": "Anonymous Pro",
     "errorLens.fontSize": "18",
-    "errorLens.fontWeight": "400",
+    "errorLens.fontWeight": "700",
     "errorLens.fontStyleItalic": true,
+    "errorLens.messageTemplate": "$severity$message",
+    "errorLens.severityText": [
+        "ERROR: ",
+        "WARNING: ",
+        "",
+        ""
+    ],
+    "errorLens.messageMaxChars": 50,
     "errorLens.scrollbarHackEnabled": true,
     "errorLens.followCursor": "activeLine",
     "errorLens.messageBackgroundMode": "none",
