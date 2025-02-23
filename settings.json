@@ -339,8 +339,8 @@
 
     /* --- errorLens Settings --- */
     "errorLens.fontFamily": "Anonymous Pro",
-    "errorLens.fontSize": "18",
-    "errorLens.fontWeight": "700",
+    "errorLens.fontSize": "16",
+    "errorLens.fontWeight": "600",
     "errorLens.fontStyleItalic": true,
     "errorLens.messageTemplate": "$severity$message",
     "errorLens.severityText": [
@@ -349,13 +349,13 @@
         "",
         ""
     ],
-    "errorLens.messageMaxChars": 50,
+    "errorLens.messageMaxChars": 60,
     "errorLens.scrollbarHackEnabled": true,
     "errorLens.followCursor": "allLines",
     "errorLens.messageBackgroundMode": "none",
     "errorLens.enableOnDiffView": true,
     "errorLens.gutterIconsEnabled": true,
-    "errorLens.gutterIconSize": "70%",
+    "errorLens.gutterIconSize": "60%",
 
 
     /* --- trailing-spaces Settings --- */
