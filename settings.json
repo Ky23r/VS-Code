@@ -185,6 +185,9 @@
     "editor.cursorWidth": 2,
     "editor.cursorSmoothCaretAnimation": "on",
     "editor.find.cursorMoveOnType": true,
+    "editor.find.history": "never",
+    "editor.find.replaceHistory": "never",
+    "editor.find.seedSearchStringFromSelection": "never",
     "editor.codeLens": false,
 
 
@@ -267,6 +270,7 @@
 
     /* --- extensions Settings --- */
     "extensions.ignoreRecommendations": true,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
 
 
     /* --- code-runner Settings --- */
@@ -335,6 +339,10 @@
     "vsicons.dontShowNewVersionMessage": true,
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.presets.hideExplorerArrows": true,
+
+
+    /* --- path-intellisense Settings --- */
+    "path-intellisense.extensionOnImport": true,
 
 
     /* --- errorLens Settings --- */
