@@ -80,6 +80,10 @@
         "errorLens.infoForeground": "#00eff8",
         "errorLens.hintForeground": "#00eeae"
     },
+    "workbench.editor.languageDetectionHints": {
+        "untitledEditors": false,
+        "notebookEditors": false
+    },
     "editor.glyphMargin": true,
     "editor.folding": false,
     "editor.minimap.enabled": true,
@@ -141,6 +145,7 @@
     "editor.quickSuggestionsDelay": 0,
     "editor.acceptSuggestionOnEnter": "on",
     "editor.tabCompletion": "on",
+    "editor.inlayHints.enabled": "off",
     "editor.hover.enabled": true,
     "editor.lightbulb.enabled": "off",
     "editor.lineNumbers": "on",
@@ -172,6 +177,9 @@
             }
         ]
     },
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingComments": "always",
+    "editor.autoClosingQuotes": "always",
     "editor.bracketPairColorization.enabled": true,
     "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
     "editor.guides.indentation": true,
@@ -270,6 +278,10 @@
     "debug.showVariableTypes": true,
 
 
+    /* --- inlineChat Settings --- */
+    "inlineChat.lineNaturalLanguageHint": false,
+
+
     /* --- extensions Settings --- */
     "extensions.ignoreRecommendations": true,
     "workbench.remoteIndicator.showExtensionRecommendations": false,
@@ -352,6 +364,10 @@
     "errorLens.fontSize": "16",
     "errorLens.fontWeight": "600",
     "errorLens.fontStyleItalic": true,
+    "errorLens.enabledDiagnosticLevels": [
+        "error",
+        "warning"
+    ],
     "errorLens.messageTemplate": "$severity$message",
     "errorLens.severityText": [
         "ERROR: ",
@@ -491,6 +507,13 @@
     },
 
 
+    /* --- typescript & javascript Settings --- */
+    "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+    "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
+    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+
+
     /* --- notebook Settings --- */
     "notebook.compactView": false,
     "notebook.lineNumbers": "on",
@@ -501,12 +524,13 @@
     "notebook.formatOnSave.enabled": true,
     "notebook.output.wordWrap": true,
     "notebook.output.scrolling": true,
+    "notebook.breadcrumbs.showCodeCells": false,
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "jupyter.interactiveWindow.creationMode": "perFile",
     "interactiveWindow.collapseCellInputCode": "never",
     "interactiveWindow.executeWithShiftEnter": true,
-    "notebook.breadcrumbs.showCodeCells": false,
+    "interactiveWindow.showExecutionHint": false,
 
 
     /* --- search Settings --- */
