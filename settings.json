@@ -513,7 +513,7 @@
     "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
 
 
-    /* --- jupyter notebook Settings --- */
+    /* --- notebook Settings --- */
     "notebook.compactView": false,
     "notebook.lineNumbers": "on",
     "notebook.diff.enablePreview": false,
