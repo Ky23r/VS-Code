@@ -103,7 +103,11 @@
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
     {
-        "key": "ctrl+'",
+        "key": "ctrl+m",
+        "command": "-editor.action.toggleTabFocusMode"
+    },
+    {
+        "key": "ctrl+m",
         "command": "cursorHome",
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
