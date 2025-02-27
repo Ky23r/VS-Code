@@ -68,12 +68,42 @@
         "when": "textInputFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+'",
+        "key": "ctrl+l",
+        "command": "-workbench.action.chat.newChat",
+        "when": "chatIsEnabled && inChat && chatLocation != 'editing-session'"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.chat.newChat",
+        "when": "chatIsEnabled && inChat && chatLocation != 'editing-session'"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-workbench.action.chat.newEditSession",
+        "when": "chatEditingParticipantRegistered && chatIsEnabled && inChat && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "workbench.action.chat.newEditSession",
+        "when": "chatEditingParticipantRegistered && chatIsEnabled && inChat && chatLocation == 'editing-session'"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-expandLineSelection",
+        "when": "textInputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "-notebook.centerActiveCell",
+        "when": "notebookEditorFocused"
+    },
+    {
+        "key": "ctrl+l",
         "command": "cursorEnd",
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
     {
-        "key": "ctrl+shift+'",
+        "key": "ctrl+'",
         "command": "cursorHome",
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
