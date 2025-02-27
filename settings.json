@@ -1,17 +1,18 @@
 {
-    /* --- titleBar Settings --- */
-    "workbench.layoutControl.enabled": false,
+    /* --- window Settings --- */
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
     "window.title": "",
 
 
-    /* --- editor Settings --- */
+    /* --- workbench Settings --- */
+    "workbench.colorTheme": "Night Owl (No Italics)",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.productIconTheme": "bongocat",
+    "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
     "workbench.tips.enabled": false,
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.overviewRulerBorder": false,
     "workbench.editor.pinnedTabSizing": "shrink",
     "workbench.editor.tabSizing": "shrink",
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
@@ -84,6 +85,31 @@
         "untitledEditors": false,
         "notebookEditors": false
     },
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.wrapTabs": false,
+    "workbench.editor.tabActionLocation": "right",
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.settings.editor": "json",
+    "workbench.sideBar.location": "right",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 10,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.list.smoothScrolling": true,
+    "workbench.commandPalette.history": 0,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
+
+
+    /* --- breadcrumbs Settings --- */
+    "breadcrumbs.enabled": true,
+    "breadcrumbs.icons": false,
+
+
+    /* --- editor Settings --- */
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
     "editor.glyphMargin": true,
     "editor.folding": false,
     "editor.minimap.enabled": true,
@@ -92,16 +118,7 @@
     "editor.minimap.scale": 1,
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "workbench.editor.titleScrollbarSizing": "large",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.wrapTabs": false,
-    "workbench.settings.editor": "json",
-    "workbench.editor.tabActionLocation": "right",
-    "workbench.editor.openPositioning": "last",
-    "workbench.editor.enablePreview": false,
     "editor.rename.enablePreview": false,
-    "breadcrumbs.enabled": true,
-    "breadcrumbs.icons": false,
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
@@ -201,10 +218,6 @@
     "editor.codeLens": false,
 
 
-    /* --- sideBar Settings --- */
-    "workbench.sideBar.location": "right",
-
-
     /* --- explorer Settings --- */
     "explorer.openEditors.visible": 6,
     "explorer.autoReveal": true,
@@ -284,7 +297,6 @@
 
     /* --- extensions Settings --- */
     "extensions.ignoreRecommendations": true,
-    "workbench.remoteIndicator.showExtensionRecommendations": false,
 
 
     /* --- code-runner Settings --- */
@@ -412,18 +424,6 @@
     "color-highlight.markerType": "underline",
 
 
-    /* --- colorTheme Settings --- */
-    "workbench.colorTheme": "Night Owl (No Italics)",
-
-
-    /* --- iconTheme Settings --- */
-    "workbench.iconTheme": "vscode-icons",
-
-
-    /* --- productIconTheme Settings --- */
-    "workbench.productIconTheme": "bongocat",
-
-
     /* --- security Settings --- */
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
@@ -435,7 +435,6 @@
     "files.insertFinalNewline": true,
     "files.trimFinalNewlines": true,
     "files.trimTrailingWhitespace": true,
-    "workbench.editor.closeOnFileDelete": true,
     "files.enableTrash": true,
     "files.exclude": {},
 
@@ -514,7 +513,7 @@
     "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
 
 
-    /* --- notebook Settings --- */
+    /* --- jupyter notebook Settings --- */
     "notebook.compactView": false,
     "notebook.lineNumbers": "on",
     "notebook.diff.enablePreview": false,
@@ -549,17 +548,6 @@
     "zenMode.restore": false,
     "zenMode.fullScreen": false,
     "zenMode.centerLayout": false,
-
-
-    /* --- tree & list Settings --- */
-    "workbench.list.smoothScrolling": true,
-    "workbench.tree.enableStickyScroll": false,
-    "workbench.tree.indent": 10,
-    "workbench.tree.renderIndentGuides": "none",
-
-
-    /* --- commandPalette Settings --- */
-    "workbench.commandPalette.history": 0,
 
 
     /* --- telemetry Settings --- */
