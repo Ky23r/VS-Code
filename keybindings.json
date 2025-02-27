@@ -1,18 +1,13 @@
 [
     {
-        "key": "ctrl+v",
-        "command": "workbench.action.terminal.paste",
-        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
-    },
-    {
         "key": "ctrl+shift+v",
         "command": "-workbench.action.terminal.paste",
         "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     {
-        "key": "ctrl+c",
-        "command": "workbench.action.terminal.copySelection",
-        "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
+        "key": "ctrl+v",
+        "command": "workbench.action.terminal.paste",
+        "when": "terminalFocus && terminalHasBeenCreated || terminalFocus && terminalProcessSupported"
     },
     {
         "key": "ctrl+shift+c",
@@ -25,8 +20,9 @@
         "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
     },
     {
-        "key": "ctrl+alt+n",
-        "command": "-code-runner.run"
+        "key": "ctrl+c",
+        "command": "workbench.action.terminal.copySelection",
+        "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
     },
     {
         "key": "ctrl+alt+n",
@@ -35,5 +31,50 @@
     {
         "key": "ctrl+alt+,",
         "command": "java.debug.runJavaFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "-workbench.action.files.newUntitledFile"
+    },
+    {
+        "key": "ctrl+alt+n",
+        "command": "-extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+n",
+        "command": "extension.advancedNewFile"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "copyFilePath",
+    },
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+'",
+        "command": "cursorEnd",
+        "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
+    },
+    {
+        "key": "alt+'",
+        "command": "cursorHome",
+        "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
 ]
