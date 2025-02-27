@@ -73,7 +73,7 @@
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
     {
-        "key": "alt+'",
+        "key": "ctrl+shift+'",
         "command": "cursorHome",
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
