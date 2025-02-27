@@ -215,6 +215,8 @@
     "editor.find.history": "never",
     "editor.find.replaceHistory": "never",
     "editor.find.seedSearchStringFromSelection": "never",
+    "editor.unicodeHighlight.includeComments": true,
+    "editor.unicodeHighlight.nonBasicASCII": true,
     "editor.codeLens": false,
 
 
@@ -428,6 +430,8 @@
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.untrustedFiles": "open",
+    "security.workspace.trust.emptyWindow": false,
+    "security.workspace.trust.banner": "never",
 
 
     /* --- files Settings --- */
