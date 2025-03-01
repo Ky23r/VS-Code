@@ -476,6 +476,7 @@
 
     "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
+
     "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
 
@@ -490,6 +491,7 @@
     "notebook.output.wordWrap": true,
     "notebook.output.scrolling": true,
     "notebook.breadcrumbs.showCodeCells": false,
+
     "jupyter.askForKernelRestart": false,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "jupyter.interactiveWindow.creationMode": "perFile",
@@ -497,6 +499,7 @@
     "jupyter.interactiveWindow.textEditor.autoMoveToNextCell": false,
     "jupyter.interactiveWindow.codeLens.enableGotoCell": false,
     "jupyter.interactiveWindow.codeLens.enable": false,
+
     "interactiveWindow.collapseCellInputCode": "never",
     "interactiveWindow.executeWithShiftEnter": true,
     "interactiveWindow.showExecutionHint": false,
