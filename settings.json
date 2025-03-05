@@ -218,8 +218,8 @@
     "editor.selectionHighlight": true,
     "editor.copyWithSyntaxHighlighting": false,
 
-    "diffEditor.renderSideBySide": false,
-    "diffEditor.ignoreTrimWhitespace": false,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
 
     "emmet.triggerExpansionOnTab": true,
 
