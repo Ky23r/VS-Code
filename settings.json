@@ -367,7 +367,7 @@
     "path-intellisense.extensionOnImport": true,
 
     "errorLens.fontFamily": "Anonymous Pro",
-    "errorLens.fontSize": "17",
+    "errorLens.fontSize": "15",
     "errorLens.fontWeight": "600",
     "errorLens.fontStyleItalic": true,
     "errorLens.enabledDiagnosticLevels": [
