@@ -166,6 +166,7 @@
     "editor.lineHeight": 35,
     "editor.renderLineHighlight": "line",
     "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.autoIndent": "keep",
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "on",
     "editor.fontFamily": "Anonymous Pro",
@@ -366,7 +367,7 @@
 
     "path-intellisense.extensionOnImport": true,
 
-    "errorLens.fontFamily": "Anonymous Pro",
+    "errorLens.fontFamily": "Segoe Print",
     "errorLens.fontSize": "15",
     "errorLens.fontWeight": "600",
     "errorLens.fontStyleItalic": true,
@@ -398,7 +399,7 @@
     "trailing-spaces.showStatusBarMessage": false,
 
     "indentRainbow.indicatorStyle": "light",
-    "indentRainbow.lightIndicatorStyleLineWidth": 2,
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
     "indentRainbow.colors": [
         "rgba(255,234,0,0.3)",
         "rgba(199,125,255,0.3)",
@@ -445,12 +446,10 @@
     "C_Cpp.vcFormat.newLine.beforeElse": false,
     "C_Cpp.vcFormat.newLine.beforeCatch": false,
     "[c]": {
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
+        "editor.formatOnPaste": true
     },
     "[cpp]": {
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
+        "editor.formatOnPaste": true
     },
     "C_Cpp.default.defines": [
         "LOCAL",
@@ -467,18 +466,17 @@
     "java.project.outputPath": "out",
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
+        "editor.formatOnPaste": true
     },
 
     "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoIndent": false,
     "python.terminal.focusAfterLaunch": true,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
+        "editor.formatOnPaste": true
     },
 
     "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
