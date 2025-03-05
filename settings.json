@@ -99,6 +99,7 @@
     "workbench.remoteIndicator.showExtensionRecommendations": false,
 
     "breadcrumbs.enabled": true,
+    "breadcrumbs.filePath": "last",
     "breadcrumbs.icons": false,
 
     "editor.hideCursorInOverviewRuler": true,
