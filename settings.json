@@ -475,8 +475,7 @@
     "python.analysis.autoIndent": false,
     "python.terminal.focusAfterLaunch": true,
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnPaste": true
+        "editor.defaultFormatter": "ms-python.black-formatter"
     },
 
     "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
