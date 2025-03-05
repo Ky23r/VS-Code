@@ -399,7 +399,7 @@
     "trailing-spaces.showStatusBarMessage": false,
 
     "indentRainbow.indicatorStyle": "light",
-    "indentRainbow.lightIndicatorStyleLineWidth": 1.2,
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
     "indentRainbow.colors": [
         "rgba(255,234,0,0.3)",
         "rgba(199,125,255,0.3)",
@@ -521,4 +521,5 @@
     "telemetry.telemetryLevel": "off",
 
     "redhat.telemetry.enabled": false,
+    "chat.commandCenter.enabled": false,
 }
