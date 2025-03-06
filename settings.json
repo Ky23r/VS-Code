@@ -107,6 +107,7 @@
     "editor.glyphMargin": true,
     "editor.folding": false,
     "editor.showFoldingControls": "never",
+    "editor.foldingHighlight": false,
     "editor.colorDecorators": false,
     "editor.links": false,
     "editor.minimap.enabled": true,
@@ -217,7 +218,8 @@
     "editor.unicodeHighlight.nonBasicASCII": true,
     "editor.codeLens": false,
     "editor.occurrencesHighlight": "off",
-    "editor.selectionHighlight": true,
+    "editor.selectionHighlight": false,
+    "editor.emptySelectionClipboard": false,
     "editor.copyWithSyntaxHighlighting": false,
 
     "diffEditor.renderSideBySide": true,
@@ -296,6 +298,8 @@
     "debug.gutterMiddleClickAction": "none",
     "debug.terminal.clearBeforeReusing": true,
     "debug.showVariableTypes": true,
+
+    "chat.commandCenter.enabled": false,
 
     "inlineChat.lineNaturalLanguageHint": false,
 
@@ -497,6 +501,7 @@
     "notebook.breadcrumbs.showCodeCells": false,
 
     "jupyter.askForKernelRestart": false,
+    "jupyter.askForLargeDataFrames": false,
     "jupyter.interactiveWindow.textEditor.executeSelection": true,
     "jupyter.interactiveWindow.creationMode": "perFile",
     "jupyter.interactiveWindow.textEditor.cellFolding": false,
@@ -521,5 +526,4 @@
     "telemetry.telemetryLevel": "off",
 
     "redhat.telemetry.enabled": false,
-    "chat.commandCenter.enabled": false,
 }
