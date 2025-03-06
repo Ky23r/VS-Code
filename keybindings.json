@@ -107,7 +107,7 @@
         "command": "-editor.action.toggleTabFocusMode"
     },
     {
-        "key": "ctrl+m",
+        "key": "ctrl+'",
         "command": "cursorHome",
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
@@ -127,7 +127,7 @@
         "when": "editorTextFocus && !editorReadonly"
     },
     {
-        "key": "ctrl+shift+j",
+        "key": "ctrl+m",
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
@@ -170,15 +170,5 @@
         "key": "ctrl+alt+;",
         "command": "notebook.format",
         "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
-    },
-    {
-        "key": "ctrl+k ctrl+f",
-        "command": "-editor.action.formatSelection",
-        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "editor.action.formatSelection",
-        "when": "editorHasDocumentSelectionFormattingProvider && editorTextFocus && !editorReadonly"
     },
 ]
