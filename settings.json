@@ -164,7 +164,7 @@
     "editor.hover.enabled": true,
     "editor.lightbulb.enabled": "off",
     "editor.lineNumbers": "on",
-    "editor.lineHeight": 35,
+    "editor.lineHeight": 2.0,
     "editor.renderLineHighlight": "line",
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "editor.autoIndent": "full",
