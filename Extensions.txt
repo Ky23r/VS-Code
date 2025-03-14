@@ -40,6 +40,8 @@ Project Manager for Java
 Pylance
 Python
 Python Debugger
+Python Indent
+Python Path
 Rainbow CSV
 Reload
 Test Runner for Java
