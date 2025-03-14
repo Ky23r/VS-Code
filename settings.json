@@ -167,7 +167,7 @@
     "editor.lineHeight": 35,
     "editor.renderLineHighlight": "line",
     "editor.renderLineHighlightOnlyWhenFocus": true,
-    "editor.autoIndent": "keep",
+    "editor.autoIndent": "full",
     "editor.renderWhitespace": "none",
     "editor.wordWrap": "on",
     "editor.fontFamily": "Anonymous Pro",
@@ -481,7 +481,7 @@
     "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": true,
-    "python.analysis.autoIndent": false,
+    "python.analysis.autoIndent": true,
     "python.terminal.focusAfterLaunch": true,
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
