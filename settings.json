@@ -450,10 +450,12 @@
     "C_Cpp.vcFormat.newLine.beforeElse": false,
     "C_Cpp.vcFormat.newLine.beforeCatch": false,
     "[c]": {
-        "editor.formatOnPaste": true
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
     },
     "[cpp]": {
-        "editor.formatOnPaste": true
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
     },
     "C_Cpp.default.defines": [
         "LOCAL",
@@ -470,7 +472,8 @@
     "java.project.outputPath": "out",
     "[java]": {
         "editor.defaultFormatter": "redhat.java",
-        "editor.formatOnPaste": true
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
     },
 
     "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
@@ -479,7 +482,9 @@
     "python.analysis.autoIndent": false,
     "python.terminal.focusAfterLaunch": true,
     "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter"
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
     },
 
     "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
