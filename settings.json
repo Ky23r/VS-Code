@@ -168,7 +168,7 @@
     "editor.renderLineHighlight": "line",
     "editor.renderLineHighlightOnlyWhenFocus": true,
     "editor.autoIndent": "full",
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "boundary",
     "editor.wordWrap": "on",
     "editor.fontFamily": "Anonymous Pro",
     "editor.fontSize": 17,
