@@ -2,6 +2,7 @@
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
     "window.title": "",
+    "window.zoomPerWindow": false,
 
     "workbench.colorTheme": "Night Owl (No Italics)",
     "workbench.iconTheme": "vscode-icons",
