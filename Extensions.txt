@@ -9,6 +9,7 @@ C/C++ Themes
 CMake
 Cmake Tools
 Code Runner
+Code Spell Checker
 CodeSnap
 Color Highlight
 Debbuger for Java
