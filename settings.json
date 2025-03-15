@@ -401,7 +401,7 @@
     "cSpell.diagnosticLevelFlaggedWords": "Information",
     "cSpell.minWordLength": 2,
     "cSpell.numSuggestions": 4,
-    "cSpell.validateDirectives": true,
+    "cSpell.validateDirectives": false,
     "cSpell.hideIssuesWhileTyping": "Off",
     "cSpell.revealIssuesAfterDelayMS": 0,
     "cSpell.hideAddToDictionaryCodeActions": true,
