@@ -398,6 +398,14 @@
     "errorLens.gutterIconsEnabled": true,
     "errorLens.gutterIconSize": "60%",
 
+    "cSpell.diagnosticLevelFlaggedWords": "Information",
+    "cSpell.minWordLength": 2,
+    "cSpell.numSuggestions": 4,
+    "cSpell.validateDirectives": true,
+    "cSpell.hideIssuesWhileTyping": "Off",
+    "cSpell.revealIssuesAfterDelayMS": 0,
+    "cSpell.hideAddToDictionaryCodeActions": true,
+
     "trailing-spaces.borderColor": "rgba(255,165,0,0.1)",
     "trailing-spaces.backgroundColor": "rgba(255,165,0,0.1)",
     "trailing-spaces.trimOnSave": true,
