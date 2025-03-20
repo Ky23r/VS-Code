@@ -16,6 +16,9 @@
     "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
     "workbench.editor.limit.enabled": true,
     "workbench.editor.limit.value": 10,
+    "workbench.editorAssociations": {
+        "file:/**/*.csv": "jupyter-data-wrangler"
+    },
     "workbench.panel.showLabels": false,
     "workbench.colorCustomizations": {
         "titleBar.activeForeground": "#ff00cc",
