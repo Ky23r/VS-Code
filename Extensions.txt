@@ -12,9 +12,9 @@ Code Runner
 Code Spell Checker
 CodeSnap
 Color Highlight
+Data Wrangler
 Debbuger for Java
 Default Python Kernels for Jupyter Notebooks
-Edit CSV
 Error Lens
 Excel Viewer
 Extension Pack for Java
