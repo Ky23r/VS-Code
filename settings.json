@@ -429,6 +429,10 @@
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "underline",
 
+    "autoHide.hideOnOpen": true,
+    "autoHide.panelDelay": 1,
+    "autoHide.sideBarDelay": 1,
+
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.untrustedFiles": "open",
