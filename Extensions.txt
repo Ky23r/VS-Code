@@ -23,6 +23,7 @@ File Utils
 Git Graph
 Git History
 Gitlens - Git supercharged
+GlowRays
 Gradle for Java
 indent-rainbow
 IntelliCode
