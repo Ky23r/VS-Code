@@ -373,6 +373,8 @@
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.presets.hideExplorerArrows": true,
 
+    "vscodeGlow.intensity": 6,
+
     "path-intellisense.extensionOnImport": true,
 
     "errorLens.fontFamily": "Segoe Print",
