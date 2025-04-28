@@ -171,4 +171,16 @@
         "command": "notebook.format",
         "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
     },
+    {
+        "key": "ctrl+k",
+        "command": "-smart-search.openSearchPopup"
+    },
+    {
+        "key": "ctrl+alt+f",
+        "command": "-smart-search.openSearchPopup"
+    },
+    {
+        "key": "ctrl+alt+p",
+        "command": "smart-search.openSearchPopup"
+    },
 ]
