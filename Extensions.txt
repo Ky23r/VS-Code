@@ -47,6 +47,7 @@ Python Indent
 Python Path
 Rainbow CSV
 Reload
+Smart Search
 Test Runner for Java
 Trailing Spaces
 vscode-icons
