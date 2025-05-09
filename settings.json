@@ -514,7 +514,7 @@
     "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
 
     "notebook.compactView": false,
-    "notebook.lineNumbers": "on",
+    "notebook.lineNumbers": "off",
     "notebook.showFoldingControls": "never",
     "notebook.diff.enablePreview": false,
     "notebook.outline.showCodeCells": true,
