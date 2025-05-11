@@ -404,7 +404,7 @@
     "errorLens.gutterIconSize": "60%",
 
     "cSpell.diagnosticLevelFlaggedWords": "Information",
-    "cSpell.minWordLength": 2,
+    "cSpell.minWordLength": 4,
     "cSpell.numSuggestions": 4,
     "cSpell.validateDirectives": false,
     "cSpell.hideIssuesWhileTyping": "Off",
