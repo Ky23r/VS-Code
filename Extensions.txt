@@ -45,6 +45,7 @@ Python
 Python Debugger
 Python Indent
 Python Path
+python-snippets
 Rainbow CSV
 Reload
 Smart Search
