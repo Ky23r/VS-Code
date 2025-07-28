@@ -296,6 +296,7 @@
     "terminal.integrated.tabs.showActions": "always",
     "terminal.integrated.tabs.showActiveTerminal": "always",
     "terminal.integrated.focusAfterRun": "terminal",
+    "terminal.integrated.suggest.enabled": true,
 
     "debug.console.fontSize": 17,
     "debug.console.historySuggestions": false,
