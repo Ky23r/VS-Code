@@ -80,7 +80,8 @@
         "errorLens.errorForeground": "#ff0000",
         "errorLens.warningForeground": "#c2ee00",
         "errorLens.infoForeground": "#00eff8",
-        "errorLens.hintForeground": "#00eeae"
+        "errorLens.hintForeground": "#00eeae",
+        "editorRuler.foreground": "#ff00cc99",
     },
     "workbench.editor.languageDetectionHints": {
         "untitledEditors": false,
@@ -120,6 +121,9 @@
     "editor.minimap.scale": 1,
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
+    "editor.rulers": [
+        100,
+    ],
     "editor.rename.enablePreview": false,
     "editor.quickSuggestions": {
         "other": true,
@@ -373,8 +377,6 @@
     "vsicons.dontShowNewVersionMessage": true,
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.presets.hideExplorerArrows": true,
-
-    "vscodeGlow.intensity": 6,
 
     "path-intellisense.extensionOnImport": true,
 
