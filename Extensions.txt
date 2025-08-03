@@ -20,6 +20,7 @@ Error Lens
 Excel Viewer
 Extension Pack for Java
 File Utils
+Function Explorer
 Git Graph
 Git History
 Gitlens - Git supercharged
