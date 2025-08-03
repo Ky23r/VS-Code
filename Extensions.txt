@@ -19,12 +19,12 @@ Default Python Kernels for Jupyter Notebooks
 Error Lens
 Excel Viewer
 Extension Pack for Java
+File Tab Rename
 File Utils
 Function Explorer
 Git Graph
 Git History
 Gitlens - Git supercharged
-GlowRays
 Gradle for Java
 indent-rainbow
 IntelliCode
@@ -44,12 +44,14 @@ Project Manager for Java
 Pylance
 Python
 Python Debugger
+Python Environments
 Python Indent
 Python Path
 python-snippets
 Rainbow CSV
 Reload
 Smart Search
+Tab Layout
 Test Runner for Java
 Trailing Spaces
 vscode-icons
