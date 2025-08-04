@@ -1,5 +1,6 @@
 advanced-new-file
 Auto Hide
+Background
 Better Comments
 Black Formatter
 Bongo Cat
@@ -21,6 +22,7 @@ Excel Viewer
 Extension Pack for Java
 File Tab Rename
 File Utils
+Fix VSCode Checksums Next
 Function Explorer
 Git Graph
 Git History
