@@ -434,6 +434,10 @@
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "underline",
 
+    "background.windowBackgrounds": [
+        "D:\\Archive\\Imgs\\Wallpapers\\1.jpg",
+    ],
+
     "autoHide.hideOnOpen": true,
     "autoHide.panelDelay": 1,
     "autoHide.sideBarDelay": 1,
