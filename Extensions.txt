@@ -1,6 +1,5 @@
 advanced-new-file
 Auto Hide
-Background
 Better Comments
 Black Formatter
 Bongo Cat
