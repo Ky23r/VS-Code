@@ -116,7 +116,7 @@
     "editor.colorDecorators": false,
     "editor.links": false,
     "editor.minimap.enabled": true,
-    "editor.minimap.autohide": false,
+    "editor.minimap.autohide": "none",
     "editor.minimap.side": "left",
     "editor.minimap.scale": 1,
     "editor.minimap.showSlider": "always",
@@ -433,10 +433,6 @@
 
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "underline",
-
-    "background.windowBackgrounds": [
-        "D:\\Archive\\Imgs\\Wallpapers\\1.jpg",
-    ],
 
     "autoHide.hideOnOpen": true,
     "autoHide.panelDelay": 1,
