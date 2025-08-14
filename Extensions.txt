@@ -22,7 +22,6 @@ Extension Pack for Java
 File Tab Rename
 File Utils
 Fix VSCode Checksums Next
-Function Explorer
 Git Graph
 Git History
 Gitlens - Git supercharged
@@ -52,7 +51,6 @@ python-snippets
 Rainbow CSV
 Reload
 Smart Search
-Tab Layout
 Test Runner for Java
 Trailing Spaces
 vscode-icons
