@@ -25,6 +25,7 @@ Fix VSCode Checksums Next
 Git Graph
 Git History
 Gitlens - Git supercharged
+Glassit-VSC
 Gradle for Java
 indent-rainbow
 IntelliCode
