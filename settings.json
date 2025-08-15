@@ -420,6 +420,9 @@
     "trailing-spaces.showStatusBarMessage": false,
     "trailing-spaces.logLevel": "log",
 
+    "glassit.alpha": 240,
+    "glassit.step": 10,
+
     "indentRainbow.indicatorStyle": "light",
     "indentRainbow.lightIndicatorStyleLineWidth": 1,
     "indentRainbow.colors": [
