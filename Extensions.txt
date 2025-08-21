@@ -51,7 +51,6 @@ Python Path
 python-snippets
 Rainbow CSV
 Reload
-sidebar-markdown-notes
 Smart Search
 Test Runner for Java
 Trailing Spaces
