@@ -49,7 +49,6 @@ Python Debugger
 Python Environments
 Python Indent
 Python Path
-Python Preview
 python-snippets
 Rainbow CSV
 Reload
