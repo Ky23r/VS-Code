@@ -7,6 +7,7 @@
     "workbench.colorTheme": "Night Owl (No Italics)",
     "workbench.iconTheme": "vscode-icons",
     "workbench.productIconTheme": "bongocat",
+    "workbench.panel.defaultLocation": "left",
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
@@ -510,8 +511,13 @@
     "[python]": {
         "editor.defaultFormatter": "ms-python.black-formatter",
         "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
     },
+
+    "isort.args":["--profile", "black"],
 
     "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
     "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
