@@ -310,6 +310,7 @@
     "debug.showVariableTypes": true,
 
     "chat.commandCenter.enabled": false,
+    "chat.disableAIFeatures": true,
 
     "inlineChat.lineNaturalLanguageHint": false,
 
