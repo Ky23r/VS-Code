@@ -24,6 +24,10 @@ File Utils
 Fix VSCode Checksums Next
 Git Graph
 Git History
+GitHub Copilot
+GitHub Copilot app modernization
+GitHub Copilot app modernization - upgrade for Java
+GitHub Copilot Chat
 Gitlens - Git supercharged
 Glassit-VSC
 Gradle for Java
