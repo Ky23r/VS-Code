@@ -13,6 +13,7 @@ Code Runner
 Code Spell Checker
 CodeSnap
 Color Highlight
+Data Workspace
 Data Wrangler
 Debbuger for Java
 Default Python Kernels for Jupyter Notebooks
@@ -57,6 +58,9 @@ python-snippets
 Rainbow CSV
 Reload
 Smart Search
+SQL Bindings
+SQL Database Projects
+SQL Server (mssql)
 Test Runner for Java
 Trailing Spaces
 vscode-icons
