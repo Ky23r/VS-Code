@@ -12,6 +12,7 @@ Cmake Tools
 Code Runner
 Code Spell Checker
 CodeSnap
+Colab
 Color Highlight
 Data Workspace
 Data Wrangler
