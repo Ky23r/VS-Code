@@ -58,6 +58,12 @@ Python Path
 python-snippets
 Rainbow CSV
 Reload
+Remote - SSH
+Remote - SSH: Editing Configuration Files
+Remote - Tunnels
+Remote Development
+Remote Explorer
+Remote Repositories
 Smart Search
 SQL Bindings
 SQL Database Projects
