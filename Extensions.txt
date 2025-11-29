@@ -1,5 +1,6 @@
 advanced-new-file
 Auto Hide
+Azure Repos
 Better Comments
 Black Formatter
 Bongo Cat
@@ -18,6 +19,7 @@ Data Workspace
 Data Wrangler
 Debbuger for Java
 Default Python Kernels for Jupyter Notebooks
+Dev Containers
 Error Lens
 Excel Viewer
 Extension Pack for Java
@@ -26,6 +28,7 @@ File Utils
 Fix VSCode Checksums Next
 Git Graph
 Git History
+GitHub Repositories
 GitHub Copilot
 GitHub Copilot app modernization
 GitHub Copilot app modernization - upgrade for Java
@@ -70,3 +73,4 @@ Test Runner for Java
 Trailing Spaces
 vscode-icons
 vscode-pdf
+WSL
