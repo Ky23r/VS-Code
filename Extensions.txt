@@ -34,8 +34,6 @@ Gitlens - Git supercharged
 Glassit-VSC
 Gradle for Java
 indent-rainbow
-IntelliCode
-IntelliCode API Usage Examples
 isort
 Jupyter
 Jupyter Cell Tags
