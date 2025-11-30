@@ -1,5 +1,4 @@
 advanced-new-file
-Auto Hide
 Azure Repos
 Better Comments
 Black Formatter
@@ -34,7 +33,6 @@ GitHub Copilot app modernization
 GitHub Copilot app modernization - upgrade for Java
 GitHub Copilot Chat
 Gitlens - Git supercharged
-Glassit-VSC
 Gradle for Java
 indent-rainbow
 isort
