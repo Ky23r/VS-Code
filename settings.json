@@ -7,7 +7,6 @@
     "workbench.colorTheme": "Night Owl (No Italics)",
     "workbench.iconTheme": "vscode-icons",
     "workbench.productIconTheme": "bongocat",
-    "workbench.panel.defaultLocation": "left",
     "workbench.layoutControl.enabled": false,
     "workbench.startupEditor": "none",
     "workbench.editor.empty.hint": "hidden",
@@ -422,9 +421,6 @@
     "trailing-spaces.showStatusBarMessage": false,
     "trailing-spaces.logLevel": "log",
 
-    "glassit.alpha": 240,
-    "glassit.step": 10,
-
     "indentRainbow.indicatorStyle": "light",
     "indentRainbow.lightIndicatorStyleLineWidth": 1,
     "indentRainbow.colors": [
@@ -438,10 +434,6 @@
 
     "color-highlight.markRuler": false,
     "color-highlight.markerType": "underline",
-
-    "autoHide.hideOnOpen": true,
-    "autoHide.panelDelay": 1,
-    "autoHide.sideBarDelay": 1,
 
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
