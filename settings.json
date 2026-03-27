@@ -169,7 +169,7 @@
     "editor.acceptSuggestionOnEnter": "on",
     "editor.tabCompletion": "on",
     "editor.inlayHints.enabled": "off",
-    "editor.hover.enabled": true,
+    "editor.hover.enabled": "on",
     "editor.lightbulb.enabled": "off",
     "editor.lineNumbers": "on",
     "editor.lineHeight": 2.0,
@@ -309,7 +309,6 @@
     "debug.showVariableTypes": true,
 
     "chat.commandCenter.enabled": false,
-    "chat.disableAIFeatures": true,
 
     "inlineChat.lineNaturalLanguageHint": false,
 
@@ -496,6 +495,12 @@
         "editor.formatOnSave": true
     },
 
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+
     "python.defaultInterpreterPath": "C:\\Program Files\\Python313\\python.exe",
     "python.analysis.typeCheckingMode": "off",
     "python.analysis.autoImportCompletions": true,
@@ -511,12 +516,6 @@
     },
 
     "isort.args":["--profile", "black"],
-
-    "typescript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
-    "typescript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
-
-    "javascript.inlayHints.variableTypes.suppressWhenTypeMatchesName": false,
-    "javascript.inlayHints.parameterNames.suppressWhenArgumentMatchesName": false,
 
     "notebook.compactView": false,
     "notebook.lineNumbers": "off",
