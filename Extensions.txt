@@ -47,6 +47,7 @@ Maven for Java
 Multiple cursor case preserve
 Night Owl
 Path Intellisense
+Prettier - Code formatter
 Project Manager for Java
 Pylance
 Python
