@@ -517,8 +517,6 @@
         }
     },
 
-    "isort.args":["--profile", "black"],
-
     "notebook.compactView": false,
     "notebook.lineNumbers": "off",
     "notebook.showFoldingControls": "never",
