@@ -1,3 +1,4 @@
+.NET Install Tool
 advanced-new-file
 Azure Repos
 Better Comments
@@ -5,6 +6,7 @@ Black Formatter
 Bongo Cat
 Bookmarks
 C/C++
+C/C++ DevTools
 C/C++ Extension Pack
 C/C++ Themes
 CMake
@@ -27,8 +29,6 @@ File Utils
 Fix VSCode Checksums Next
 Git Graph
 Git History
-GitHub Repositories
-GitHub Copilot
 GitHub Copilot app modernization
 GitHub Copilot app modernization - upgrade for Java
 GitHub Copilot Chat
