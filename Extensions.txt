@@ -35,7 +35,6 @@ GitHub Copilot Chat
 Gitlens - Git supercharged
 Gradle for Java
 indent-rainbow
-isort
 Jupyter
 Jupyter Cell Tags
 Jupyter Keymap
