@@ -9,6 +9,7 @@ C/C++
 C/C++ DevTools
 C/C++ Extension Pack
 C/C++ Themes
+Claude Code for VS Code
 CMake
 Cmake Tools
 Code Runner
