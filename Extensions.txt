@@ -23,16 +23,14 @@ Debbuger for Java
 Default Python Kernels for Jupyter Notebooks
 Dev Containers
 Error Lens
-Excel Viewer
 Extension Pack for Java
 File Tab Rename
 File Utils
 Fix VSCode Checksums Next
 Git Graph
 Git History
-GitHub Copilot app modernization
-GitHub Copilot app modernization - upgrade for Java
-GitHub Copilot Chat
+GitHub Copilot modernization
+GitHub Repositories
 Gitlens - Git supercharged
 Gradle for Java
 indent-rainbow
@@ -65,6 +63,7 @@ Remote Development
 Remote Explorer
 Remote Repositories
 Smart Search
+Spreadsheet Viewer
 SQL Bindings
 SQL Database Projects
 SQL Server (mssql)
