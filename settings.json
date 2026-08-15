@@ -308,10 +308,6 @@
     "debug.terminal.clearBeforeReusing": true,
     "debug.showVariableTypes": true,
 
-    "chat.commandCenter.enabled": false,
-
-    "inlineChat.lineNaturalLanguageHint": false,
-
     "extensions.ignoreRecommendations": true,
 
     "code-runner.executorMap": {
