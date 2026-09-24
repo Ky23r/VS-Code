@@ -15,6 +15,7 @@ Cmake Tools
 Code Runner
 Code Spell Checker
 CodeSnap
+Codex Audio
 Colab
 Color Highlight
 Data Workspace
