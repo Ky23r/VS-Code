@@ -1,25 +1,15 @@
 {
+    // ---- 01 / WINDOW & APPEARANCE ----------------------------------------
+    // Window
     "window.commandCenter": false,
     "window.menuBarVisibility": "toggle",
     "window.title": "",
     "window.zoomPerWindow": false,
 
+    // Themes & color
     "workbench.colorTheme": "Night Owl (No Italics)",
     "workbench.iconTheme": "vscode-icons",
     "workbench.productIconTheme": "bongocat",
-    "workbench.layoutControl.enabled": false,
-    "workbench.startupEditor": "none",
-    "workbench.editor.empty.hint": "hidden",
-    "workbench.tips.enabled": false,
-    "workbench.editor.pinnedTabSizing": "shrink",
-    "workbench.editor.tabSizing": "shrink",
-    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
-    "workbench.editor.limit.enabled": true,
-    "workbench.editor.limit.value": 10,
-    "workbench.editorAssociations": {
-        "file:/**/*.csv": "jupyter-data-wrangler"
-    },
-    "workbench.panel.showLabels": false,
     "workbench.colorCustomizations": {
         "editorOverviewRuler.border": "#0000",
         "editorOverviewRuler.findMatchForeground": "#0000",
@@ -35,53 +25,160 @@
         "editorOverviewRuler.infoForeground": "#0000",
         "editorOverviewRuler.bracketMatchForeground": "#0000"
     },
+
+    // Zen mode
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.restore": false,
+    "zenMode.fullScreen": false,
+    "zenMode.centerLayout": false,
+
+    // ---- 02 / WORKBENCH & NAVIGATION -------------------------------------
+    // Layout
+    "workbench.layoutControl.enabled": false,
+    "workbench.startupEditor": "none",
+    "workbench.tips.enabled": false,
+    "workbench.settings.editor": "json",
+    "workbench.commandPalette.history": 0,
+    "workbench.remoteIndicator.showExtensionRecommendations": false,
+
+    // Editor tabs
+    "workbench.editor.enablePreview": false,
+    "workbench.editor.openPositioning": "last",
+    "workbench.editor.tabSizing": "shrink",
+    "workbench.editor.pinnedTabSizing": "shrink",
+    "workbench.editor.wrapTabs": false,
+    "workbench.editor.tabActionLocation": "right",
+    "workbench.editor.titleScrollbarSizing": "large",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.editor.closeOnFileDelete": true,
+    "workbench.editor.doubleClickTabToToggleEditorGroupSizes": "off",
+    "workbench.editor.limit.enabled": true,
+    "workbench.editor.limit.value": 10,
+    "workbench.editor.empty.hint": "hidden",
     "workbench.editor.languageDetectionHints": {
         "untitledEditors": false,
         "notebookEditors": false
     },
-    "workbench.editor.titleScrollbarSizing": "large",
-    "workbench.editor.highlightModifiedTabs": true,
-    "workbench.editor.wrapTabs": false,
-    "workbench.editor.tabActionLocation": "right",
-    "workbench.editor.openPositioning": "last",
-    "workbench.editor.enablePreview": false,
-    "workbench.editor.closeOnFileDelete": true,
-    "workbench.settings.editor": "json",
+    "workbench.editorAssociations": {
+        "file:/**/*.csv": "jupyter-data-wrangler"
+    },
+
+    // Panels & navigation
+    "workbench.panel.showLabels": false,
     "workbench.sideBar.location": "right",
     "workbench.tree.enableStickyScroll": false,
     "workbench.tree.indent": 10,
     "workbench.tree.renderIndentGuides": "none",
     "workbench.list.smoothScrolling": true,
-    "workbench.commandPalette.history": 0,
-    "workbench.remoteIndicator.showExtensionRecommendations": false,
-
     "breadcrumbs.enabled": true,
     "breadcrumbs.filePath": "last",
     "breadcrumbs.icons": false,
 
-    "editor.hideCursorInOverviewRuler": true,
-    "editor.overviewRulerBorder": false,
+    // ---- 03 / EDITOR: TYPOGRAPHY & RENDERING -----------------------------
+    // Typography
+    "editor.fontFamily": "Anonymous Pro",
+    "editor.fontSize": 16,
+    "editor.fontWeight": 400,
+    "editor.fontLigatures": false,
+    "editor.letterSpacing": 0.5,
+    "editor.lineHeight": 2.0,
+    "editor.lineNumbers": "on",
+    "editor.wordWrap": "on",
+
+    // Rendering
+    "editor.renderLineHighlight": "line",
+    "editor.renderLineHighlightOnlyWhenFocus": true,
+    "editor.renderWhitespace": "boundary",
+    "editor.rulers": [
+        100
+    ],
     "editor.glyphMargin": true,
-    "editor.folding": false,
-    "editor.showFoldingControls": "never",
-    "editor.foldingHighlight": false,
     "editor.colorDecorators": false,
-    "editor.links": false,
+    "editor.codeLens": false,
+    "editor.unicodeHighlight.includeComments": false,
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "name": "Comment",
+                "scope": [
+                    "comment",
+                    "comment.block",
+                    "comment.block.documentation",
+                    "comment.line",
+                    "comment.line.double-slash",
+                    "punctuation.definition.comment"
+                ],
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            }
+        ]
+    },
+
+    // ---- 04 / EDITOR: VIEWPORT & CURSOR ----------------------------------
+    // Minimap & overview
     "editor.minimap.enabled": true,
     "editor.minimap.autohide": "none",
     "editor.minimap.side": "left",
     "editor.minimap.scale": 1,
     "editor.minimap.showSlider": "always",
     "editor.minimap.renderCharacters": false,
-    "editor.rulers": [
-        100,
-    ],
+    "editor.hideCursorInOverviewRuler": true,
+    "editor.overviewRulerBorder": false,
+
+    // Scrolling
+    "editor.scrollbar.horizontalScrollbarSize": 12,
+    "editor.scrollbar.vertical": "auto",
+    "editor.scrollbar.verticalScrollbarSize": 12,
+    "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": false,
+    "editor.stickyScroll.scrollWithEditor": false,
+
+    // Cursor & selection
+    "editor.cursorBlinking": "expand",
+    "editor.cursorWidth": 2,
+    "editor.cursorSmoothCaretAnimation": "on",
+    "editor.cursorSurroundingLines": 100,
+    "editor.selectionHighlight": false,
+    "editor.occurrencesHighlight": "off",
+
+    // ---- 05 / EDITOR: EDITING & NAVIGATION -------------------------------
+    // Auto-editing
+    "editor.autoIndent": "full",
+    "editor.autoClosingBrackets": "always",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingComments": "always",
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.indentation": true,
+    "editor.guides.highlightActiveIndentation": false,
+    "editor.emptySelectionClipboard": false,
+    "editor.copyWithSyntaxHighlighting": false,
+
+    // Code navigation
+    "editor.folding": false,
+    "editor.showFoldingControls": "never",
+    "editor.foldingHighlight": false,
+    "editor.links": false,
+    "editor.hover.enabled": "on",
+    "editor.lightbulb.enabled": "off",
     "editor.rename.enablePreview": false,
+    "editor.find.cursorMoveOnType": true,
+    "editor.find.history": "never",
+    "editor.find.replaceHistory": "never",
+    "editor.find.seedSearchStringFromSelection": "never",
+
+    // ---- 06 / EDITOR: COMPLETION & INTELLISENSE --------------------------
+    // Suggestions
     "editor.quickSuggestions": {
         "other": true,
         "comments": true,
-        "strings": true,
+        "strings": true
     },
+    "editor.quickSuggestionsDelay": 0,
     "editor.suggest.showClasses": true,
     "editor.suggest.showColors": true,
     "editor.suggest.showConstants": true,
@@ -113,80 +210,26 @@
     "editor.suggest.showVariables": true,
     "editor.suggest.showWords": true,
     "editor.suggest.showInlineDetails": false,
-    "editor.snippetSuggestions": "top",
     "editor.suggest.insertMode": "insert",
-    "editor.inlineSuggest.suppressSuggestions": true,
-    "editor.inlineSuggest.enabled": false,
-    "editor.quickSuggestionsDelay": 0,
+    "editor.snippetSuggestions": "top",
     "editor.acceptSuggestionOnEnter": "on",
     "editor.tabCompletion": "on",
+
+    // Inline assistance
+    "editor.inlineSuggest.suppressSuggestions": true,
+    "editor.inlineSuggest.enabled": false,
     "editor.inlayHints.enabled": "off",
-    "editor.hover.enabled": "on",
-    "editor.lightbulb.enabled": "off",
-    "editor.lineNumbers": "on",
-    "editor.lineHeight": 2.0,
-    "editor.renderLineHighlight": "line",
-    "editor.renderLineHighlightOnlyWhenFocus": true,
-    "editor.autoIndent": "full",
-    "editor.renderWhitespace": "boundary",
-    "editor.wordWrap": "on",
-    "editor.fontFamily": "Anonymous Pro",
-    "editor.fontSize": 16,
-    "editor.fontLigatures": false,
-    "editor.fontWeight": 400,
-    "editor.letterSpacing": 0.5,
-    "editor.tokenColorCustomizations": {
-        "textMateRules": [
-            {
-                "name": "Comment",
-                "scope": [
-                    "comment",
-                    "comment.block",
-                    "comment.block.documentation",
-                    "comment.line",
-                    "comment.line.double-slash",
-                    "punctuation.definition.comment"
-                ],
-                "settings": {
-                    "fontStyle": "italic"
-                }
-            }
-        ]
-    },
-    "editor.autoClosingBrackets": "always",
-    "editor.autoClosingComments": "always",
-    "editor.autoClosingQuotes": "always",
-    "editor.bracketPairColorization.enabled": true,
-    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
-    "editor.guides.indentation": true,
-    "editor.guides.highlightActiveIndentation": false,
-    "editor.smoothScrolling": true,
-    "editor.stickyScroll.enabled": false,
-    "editor.stickyScroll.scrollWithEditor": false,
-    "editor.scrollbar.horizontalScrollbarSize": 12,
-    "editor.scrollbar.vertical": "auto",
-    "editor.scrollbar.verticalScrollbarSize": 12,
-    "editor.cursorSurroundingLines": 100,
-    "editor.cursorBlinking": "expand",
-    "editor.cursorWidth": 2,
-    "editor.cursorSmoothCaretAnimation": "on",
-    "editor.find.cursorMoveOnType": true,
-    "editor.find.history": "never",
-    "editor.find.replaceHistory": "never",
-    "editor.find.seedSearchStringFromSelection": "never",
-    "editor.unicodeHighlight.includeComments": false,
-    "editor.unicodeHighlight.nonBasicASCII": false,
-    "editor.codeLens": false,
-    "editor.occurrencesHighlight": "off",
-    "editor.selectionHighlight": false,
-    "editor.emptySelectionClipboard": false,
-    "editor.copyWithSyntaxHighlighting": false,
 
-    "diffEditor.renderSideBySide": true,
-    "diffEditor.ignoreTrimWhitespace": true,
+    // ---- 07 / FILES & EXPLORER -------------------------------------------
+    // Files
+    "files.autoSave": "onFocusChange",
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "files.enableTrash": true,
+    "files.exclude": {},
 
-    "emmet.triggerExpansionOnTab": true,
-
+    // Explorer
     "explorer.openEditors.visible": 6,
     "explorer.autoReveal": true,
     "explorer.confirmDragAndDrop": false,
@@ -197,14 +240,25 @@
     "explorer.sortOrder": "type",
     "explorer.decorations.badges": false,
 
-    "git.decorations.enabled": false,
+    // ---- 08 / SEARCH & SOURCE CONTROL ------------------------------------
+    // Search & diff
+    "search.showLineNumbers": true,
+    "search.quickOpen.includeHistory": false,
+    "diffEditor.renderSideBySide": true,
+    "diffEditor.ignoreTrimWhitespace": true,
 
+    // Git & SCM
+    "git.decorations.enabled": false,
     "scm.diffDecorations": "none",
 
+    // ---- 09 / INTEGRATED TERMINAL ----------------------------------------
+    // Shell profiles
     "terminal.integrated.profiles.windows": {
         "PowerShell": {
             "source": "PowerShell",
-            "args": ["-NoLogo"],
+            "args": [
+                "-NoLogo"
+            ],
             "icon": "terminal-powershell"
         },
         "Command Prompt": {
@@ -212,20 +266,36 @@
                 "${env:windir}\\Sysnative\\cmd.exe",
                 "${env:windir}\\System32\\cmd.exe"
             ],
-            "args": ["/k"],
+            "args": [
+                "/k"
+            ],
             "icon": "terminal-cmd"
         },
         "Git Bash": {
-            "source": "Git Bash",
-            "path": "C:\\Program Files\\Git\\bin\\bash.exe"
+            "source": "Git Bash"
         },
         "Windows PowerShell": {
-            "path": "C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
-            "args": ["-NoLogo"],
+            "path": "${env:windir}\\System32\\WindowsPowerShell\\v1.0\\powershell.exe",
+            "args": [
+                "-NoLogo"
+            ],
             "icon": "terminal-powershell"
-        },
+        }
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
+
+    // Appearance
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.fontWeight": 400,
+    "terminal.integrated.letterSpacing": 0.5,
+    "terminal.integrated.lineHeight": 1.5,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "none",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorWidth": 1,
+    "terminal.integrated.smoothScrolling": true,
+
+    // Shell behavior
     "terminal.integrated.initialHint": false,
     "terminal.integrated.hideOnStartup": "always",
     "terminal.integrated.shellIntegration.enabled": false,
@@ -234,33 +304,31 @@
     "terminal.integrated.shellIntegration.history": 0,
     "terminal.integrated.enablePersistentSessions": false,
     "terminal.integrated.persistentSessionReviveProcess": "never",
-    "terminal.integrated.lineHeight": 1.5,
-    "terminal.integrated.fontSize": 16,
-    "terminal.integrated.fontWeight": 400,
-    "terminal.integrated.letterSpacing": 0.5,
-    "terminal.integrated.cursorStyleInactive": "none",
-    "terminal.integrated.cursorBlinking": true,
-    "terminal.integrated.cursorWidth": 1,
-    "terminal.integrated.cursorStyle": "line",
     "terminal.integrated.rightClickBehavior": "nothing",
     "terminal.integrated.enableMultiLinePasteWarning": "never",
-    "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.focusAfterRun": "terminal",
+    "terminal.integrated.suggest.enabled": true,
+
+    // Tabs
     "terminal.integrated.tabs.focusMode": "singleClick",
     "terminal.integrated.tabs.location": "left",
     "terminal.integrated.tabs.hideCondition": "never",
     "terminal.integrated.tabs.showActions": "always",
     "terminal.integrated.tabs.showActiveTerminal": "always",
-    "terminal.integrated.focusAfterRun": "terminal",
-    "terminal.integrated.suggest.enabled": true,
 
+    // ---- 10 / DEBUGGING & CODE RUNNER ------------------------------------
+    // Debugger
     "debug.console.fontSize": 16,
     "debug.console.historySuggestions": false,
     "debug.gutterMiddleClickAction": "none",
     "debug.terminal.clearBeforeReusing": true,
     "debug.showVariableTypes": true,
 
-    "extensions.ignoreRecommendations": true,
-
+    // Code Runner
+    "code-runner.runInTerminal": true,
+    "code-runner.saveFileBeforeRun": true,
+    "code-runner.saveAllFilesBeforeRun": true,
+    "code-runner.showExecutionMessage": true,
     "code-runner.executorMap": {
         "javascript": "node",
         "java": "cd $dir && javac $fileName && java $fileNameWithoutExt",
@@ -316,17 +384,143 @@
         "sml": "cd $dir && sml $fileName",
         "mojo": "mojo run"
     },
-    "code-runner.saveFileBeforeRun": true,
-    "code-runner.saveAllFilesBeforeRun": true,
-    "code-runner.runInTerminal": true,
-    "code-runner.showExecutionMessage": true,
 
+    // ---- 11 / C, C++ & CMAKE ---------------------------------------------
+    // Language standards & compiler
+    "C_Cpp.default.cStandard": "c17",
+    "C_Cpp.default.cppStandard": "c++20",
+    "C_Cpp.default.compilerPath": "g++",
+    "C_Cpp.default.defines": [
+        "LOCAL",
+        "_GLIBCXX_DEBUG"
+    ],
+
+    // IntelliSense & formatting
+    "C_Cpp.errorSquiggles": "enabled",
+    "C_Cpp.loggingLevel": "Debug",
+    "C_Cpp.autoAddFileAssociations": false,
+    "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
+    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
+    "C_Cpp.formatting": "vcFormat",
+    "C_Cpp.vcFormat.indent.caseLabels": true,
+    "C_Cpp.vcFormat.indent.accessSpecifiers": false,
+    "C_Cpp.vcFormat.indent.lambdaBracesWhenParameter": false,
+    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
+    "C_Cpp.vcFormat.space.beforeInheritanceColon": true,
+    "C_Cpp.vcFormat.space.beforeConstructorColon": true,
+    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
+    "C_Cpp.vcFormat.space.withinInitializerListBraces": true,
+    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
+    "C_Cpp.vcFormat.newLine.beforeElse": false,
+    "C_Cpp.vcFormat.newLine.beforeCatch": false,
+
+    // Per-language overrides
+    "[c]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+    "[cpp]": {
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+    "cmake.showConfigureWithDebuggerNotification": false,
+
+    // ---- 12 / JAVA -------------------------------------------------------
+    "java.help.showReleaseNotes": false,
+    "java.silentNotification": true,
+    "java.inlayHints.parameterNames.enabled": "none",
+    "java.project.outputPath": "out",
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+
+    // ---- 13 / JAVASCRIPT & WEB -------------------------------------------
+    "[javascript]": {
+        "editor.tabSize": 2,
+        "editor.insertSpaces": true,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true
+    },
+    "emmet.triggerExpansionOnTab": true,
+    "markdown.preview.scrollEditorWithPreview": true,
+    "markdown.preview.scrollPreviewWithEditor": true,
+
+    // ---- 14 / PYTHON -----------------------------------------------------
+    "python.defaultInterpreterPath": "python",
+    "python.analysis.typeCheckingMode": "off",
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.autoIndent": true,
+    "python.terminal.focusAfterLaunch": true,
+    "[python]": {
+        "editor.defaultFormatter": "ms-python.black-formatter",
+        "editor.formatOnPaste": true,
+        "editor.formatOnSave": true,
+        "editor.codeActionsOnSave": {
+            "source.organizeImports": "explicit"
+        }
+    },
+
+    // ---- 15 / NOTEBOOKS & JUPYTER ----------------------------------------
+    // Notebooks
+    "notebook.compactView": false,
+    "notebook.lineNumbers": "off",
+    "notebook.showFoldingControls": "never",
+    "notebook.diff.enablePreview": false,
+    "notebook.outline.showCodeCells": true,
+    "notebook.insertFinalNewline": true,
+    "notebook.formatOnCellExecution": true,
+    "notebook.formatOnSave.enabled": true,
+    "notebook.output.wordWrap": true,
+    "notebook.output.scrolling": true,
+    "notebook.breadcrumbs.showCodeCells": false,
+
+    // Jupyter
+    "jupyter.askForKernelRestart": false,
+    "jupyter.askForLargeDataFrames": false,
+    "jupyter.interactiveWindow.textEditor.executeSelection": true,
+    "jupyter.interactiveWindow.creationMode": "perFile",
+    "jupyter.interactiveWindow.textEditor.cellFolding": false,
+    "jupyter.interactiveWindow.textEditor.autoMoveToNextCell": false,
+    "jupyter.interactiveWindow.codeLens.enableGotoCell": false,
+    "jupyter.interactiveWindow.codeLens.enable": false,
+    "interactiveWindow.collapseCellInputCode": "never",
+    "interactiveWindow.executeWithShiftEnter": true,
+    "interactiveWindow.showExecutionHint": false,
+
+    // ---- 16 / EXTENSIONS: APPEARANCE -------------------------------------
+    // File icons
     "vsicons.dontShowNewVersionMessage": true,
     "vsicons.presets.foldersAllDefaultIcon": true,
     "vsicons.presets.hideExplorerArrows": true,
 
+    // Editor decorations
+    "indentRainbow.indicatorStyle": "light",
+    "indentRainbow.lightIndicatorStyleLineWidth": 1,
+    "indentRainbow.colors": [
+        "rgba(255,234,0,0.3)",
+        "rgba(199,125,255,0.3)",
+        "rgba(248,249,250,0.3)"
+    ],
+    "indentRainbow.errorColor": "rgba(255,165,0,0.1)",
+    "indentRainbow.tabmixColor": "rgba(255,165,0,0.1)",
+    "indentRainbow.updateDelay": 0,
+    "color-highlight.markRuler": false,
+    "color-highlight.markerType": "underline",
+    "trailing-spaces.borderColor": "rgba(255,165,0,0.1)",
+    "trailing-spaces.backgroundColor": "rgba(255,165,0,0.1)",
+    "trailing-spaces.trimOnSave": true,
+    "trailing-spaces.showStatusBarMessage": false,
+    "trailing-spaces.logLevel": "log",
+
+    // ---- 17 / EXTENSIONS: PRODUCTIVITY & DIAGNOSTICS ---------------------
+    // Extension behavior
+    "extensions.ignoreRecommendations": true,
     "path-intellisense.extensionOnImport": true,
 
+    // Error Lens
     "errorLens.fontFamily": "Segoe Print",
     "errorLens.fontSize": "14",
     "errorLens.fontWeight": "600",
@@ -353,6 +547,7 @@
     "errorLens.gutterIconsEnabled": true,
     "errorLens.gutterIconSize": "60%",
 
+    // Spell checker
     "cSpell.diagnosticLevelFlaggedWords": "Information",
     "cSpell.minWordLength": 4,
     "cSpell.numSuggestions": 4,
@@ -361,144 +556,15 @@
     "cSpell.revealIssuesAfterDelayMS": 0,
     "cSpell.hideAddToDictionaryCodeActions": true,
 
-    "trailing-spaces.borderColor": "rgba(255,165,0,0.1)",
-    "trailing-spaces.backgroundColor": "rgba(255,165,0,0.1)",
-    "trailing-spaces.trimOnSave": true,
-    "trailing-spaces.showStatusBarMessage": false,
-    "trailing-spaces.logLevel": "log",
-
-    "indentRainbow.indicatorStyle": "light",
-    "indentRainbow.lightIndicatorStyleLineWidth": 1,
-    "indentRainbow.colors": [
-        "rgba(255,234,0,0.3)",
-        "rgba(199,125,255,0.3)",
-        "rgba(248,249,250,0.3)"
-    ],
-    "indentRainbow.errorColor": "rgba(255,165,0,0.1)",
-    "indentRainbow.tabmixColor": "rgba(255,165,0,0.1)",
-    "indentRainbow.updateDelay": 0,
-
-    "color-highlight.markRuler": false,
-    "color-highlight.markerType": "underline",
-
+    // ---- 18 / SECURITY, ACCESSIBILITY & PRIVACY --------------------------
+    // Workspace trust
     "security.workspace.trust.enabled": false,
     "security.workspace.trust.startupPrompt": "never",
     "security.workspace.trust.untrustedFiles": "open",
     "security.workspace.trust.emptyWindow": false,
     "security.workspace.trust.banner": "never",
 
-    "files.autoSave": "onFocusChange",
-    "files.insertFinalNewline": true,
-    "files.trimFinalNewlines": true,
-    "files.trimTrailingWhitespace": true,
-    "files.enableTrash": true,
-    "files.exclude": {},
-
-    "markdown.preview.scrollEditorWithPreview": true,
-    "markdown.preview.scrollPreviewWithEditor": true,
-
-    "cmake.showConfigureWithDebuggerNotification": false,
-
-    "C_Cpp.default.cppStandard": "c++20",
-    "C_Cpp.default.cStandard": "c17",
-    "C_Cpp.default.compilerPath": "g++",
-    "C_Cpp.loggingLevel": "Debug",
-    "C_Cpp.formatting": "vcFormat",
-    "C_Cpp.vcFormat.indent.caseLabels": true,
-    "C_Cpp.vcFormat.indent.accessSpecifiers": false,
-    "C_Cpp.vcFormat.indent.lambdaBracesWhenParameter": false,
-    "C_Cpp.vcFormat.space.insertAfterSemicolon": true,
-    "C_Cpp.vcFormat.space.beforeInheritanceColon": true,
-    "C_Cpp.vcFormat.space.beforeConstructorColon": true,
-    "C_Cpp.vcFormat.space.beforeInitializerListOpenBrace": true,
-    "C_Cpp.vcFormat.space.withinInitializerListBraces": true,
-    "C_Cpp.vcFormat.space.preserveInInitializerList": false,
-    "C_Cpp.vcFormat.newLine.beforeElse": false,
-    "C_Cpp.vcFormat.newLine.beforeCatch": false,
-    "[c]": {
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
-    },
-    "[cpp]": {
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
-    },
-    "C_Cpp.default.defines": [
-        "LOCAL",
-        "_GLIBCXX_DEBUG"
-    ],
-    "C_Cpp.errorSquiggles": "enabled",
-    "C_Cpp.autoAddFileAssociations": false,
-    "C_Cpp.inlayHints.parameterNames.hideLeadingUnderscores": false,
-    "C_Cpp.inlayHints.parameterNames.suppressWhenArgumentContainsName": false,
-
-    "java.help.showReleaseNotes": false,
-    "java.silentNotification": true,
-    "java.inlayHints.parameterNames.enabled": "none",
-    "java.project.outputPath": "out",
-    "[java]": {
-        "editor.defaultFormatter": "redhat.java",
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
-    },
-
-    "[javascript]": {
-        "editor.tabSize": 2,
-        "editor.insertSpaces": true,
-        "editor.defaultFormatter": "esbenp.prettier-vscode",
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true
-    },
-
-    "python.defaultInterpreterPath": "C:\\Program Files\\Python311\\python.exe",
-    "python.analysis.typeCheckingMode": "off",
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.autoIndent": true,
-    "python.terminal.focusAfterLaunch": true,
-    "[python]": {
-        "editor.defaultFormatter": "ms-python.black-formatter",
-        "editor.formatOnPaste": true,
-        "editor.formatOnSave": true,
-        "editor.codeActionsOnSave": {
-            "source.organizeImports": "explicit"
-        }
-    },
-
-    "notebook.compactView": false,
-    "notebook.lineNumbers": "off",
-    "notebook.showFoldingControls": "never",
-    "notebook.diff.enablePreview": false,
-    "notebook.outline.showCodeCells": true,
-    "notebook.insertFinalNewline": true,
-    "notebook.formatOnCellExecution": true,
-    "notebook.formatOnSave.enabled": true,
-    "notebook.output.wordWrap": true,
-    "notebook.output.scrolling": true,
-    "notebook.breadcrumbs.showCodeCells": false,
-
-    "jupyter.askForKernelRestart": false,
-    "jupyter.askForLargeDataFrames": false,
-    "jupyter.interactiveWindow.textEditor.executeSelection": true,
-    "jupyter.interactiveWindow.creationMode": "perFile",
-    "jupyter.interactiveWindow.textEditor.cellFolding": false,
-    "jupyter.interactiveWindow.textEditor.autoMoveToNextCell": false,
-    "jupyter.interactiveWindow.codeLens.enableGotoCell": false,
-    "jupyter.interactiveWindow.codeLens.enable": false,
-
-    "interactiveWindow.collapseCellInputCode": "never",
-    "interactiveWindow.executeWithShiftEnter": true,
-    "interactiveWindow.showExecutionHint": false,
-
-    "search.showLineNumbers": true,
-    "search.quickOpen.includeHistory": false,
-
-    "zenMode.hideLineNumbers": false,
-    "zenMode.hideActivityBar": false,
-    "zenMode.hideStatusBar": false,
-    "zenMode.restore": false,
-    "zenMode.fullScreen": false,
-    "zenMode.centerLayout": false,
-
+    // Accessibility
     "accessibility.verbosity.comments": false,
     "accessibility.verbosity.debug": false,
     "accessibility.verbosity.diffEditor": false,
@@ -516,7 +582,30 @@
     "accessibility.verbosity.terminal": false,
     "accessibility.verbosity.walkthrough": false,
 
+    // Telemetry
     "telemetry.telemetryLevel": "off",
-
     "redhat.telemetry.enabled": false,
+
+    // ---- 19 / REMOTE DEVELOPMENT & DATABASES -----------------------------
+    // Remote SSH
+    "remote.SSH.remotePlatform": {
+        "brev-h100": "linux",
+        "server_a100_user03_proxy": "linux",
+        "vaipe_aiotlab": "linux",
+        "aiotlab_92_proxy": "linux"
+    },
+    "remote.SSH.defaultExtensions": [
+        "ms-python.python",
+        "ms-toolsai.jupyter-renderers",
+        "ms-toolsai.jupyter-keymap",
+        "ms-toolsai.jupyter"
+    ],
+
+    // SQL Server
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ]
 }
