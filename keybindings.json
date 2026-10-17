@@ -1,4 +1,7 @@
 [
+    // -------------------------------------------------------------------------
+    // 01. TERMINAL & CLIPBOARD
+    // -------------------------------------------------------------------------
     {
         "key": "ctrl+shift+v",
         "command": "-workbench.action.terminal.paste",
@@ -25,6 +28,19 @@
         "when": "terminalTextSelectedInFocused || terminalFocus && terminalHasBeenCreated && terminalTextSelected || terminalFocus && terminalProcessSupported && terminalTextSelected || terminalFocus && terminalTextSelected && terminalTextSelectedInFocused || terminalHasBeenCreated && terminalTextSelected && terminalTextSelectedInFocused || terminalProcessSupported && terminalTextSelected && terminalTextSelectedInFocused"
     },
     {
+        "key": "ctrl+shift+c",
+        "command": "-workbench.action.terminal.openNativeConsole",
+        "when": "!terminalFocus"
+    },
+    {
+        "key": "ctrl+shift+c",
+        "command": "copyFilePath"
+    },
+
+    // -------------------------------------------------------------------------
+    // 02. CODE EXECUTION & DEBUGGING
+    // -------------------------------------------------------------------------
+    {
         "key": "ctrl+alt+n",
         "command": "code-runner.run"
     },
@@ -32,6 +48,10 @@
         "key": "ctrl+alt+,",
         "command": "java.debug.runJavaFile"
     },
+
+    // -------------------------------------------------------------------------
+    // 03. FILE CREATION
+    // -------------------------------------------------------------------------
     {
         "key": "ctrl+n",
         "command": "-workbench.action.files.newUntitledFile"
@@ -44,29 +64,10 @@
         "key": "ctrl+n",
         "command": "extension.advancedNewFile"
     },
-    {
-        "key": "ctrl+shift+c",
-        "command": "-workbench.action.terminal.openNativeConsole",
-        "when": "!terminalFocus"
-    },
-    {
-        "key": "ctrl+shift+c",
-        "command": "copyFilePath",
-    },
-    {
-        "key": "ctrl+shift+k",
-        "command": "-editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+y",
-        "command": "-redo"
-    },
-    {
-        "key": "ctrl+y",
-        "command": "editor.action.deleteLines",
-        "when": "textInputFocus && !editorReadonly"
-    },
+
+    // -------------------------------------------------------------------------
+    // 04. CHAT & EDIT SESSIONS
+    // -------------------------------------------------------------------------
     {
         "key": "ctrl+l",
         "command": "-workbench.action.chat.newChat",
@@ -86,6 +87,24 @@
         "key": "ctrl+alt+c",
         "command": "workbench.action.chat.newEditSession",
         "when": "chatEditingParticipantRegistered && chatIsEnabled && inChat && chatLocation == 'editing-session'"
+    },
+
+    // -------------------------------------------------------------------------
+    // 05. EDITING & CURSOR NAVIGATION
+    // -------------------------------------------------------------------------
+    {
+        "key": "ctrl+shift+k",
+        "command": "-editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "-redo"
+    },
+    {
+        "key": "ctrl+y",
+        "command": "editor.action.deleteLines",
+        "when": "textInputFocus && !editorReadonly"
     },
     {
         "key": "ctrl+l",
@@ -112,11 +131,6 @@
         "when": "editorTextFocus || notebookEditorFocused || terminalFocus"
     },
     {
-        "key": "ctrl+shift+j",
-        "command": "-workbench.action.search.toggleQueryDetails",
-        "when": "inSearchEditor || searchViewletFocus"
-    },
-    {
         "key": "shift+alt+down",
         "command": "-editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
@@ -131,6 +145,10 @@
         "command": "editor.action.copyLinesDownAction",
         "when": "editorTextFocus && !editorReadonly"
     },
+
+    // -------------------------------------------------------------------------
+    // 06. DOCUMENT & NOTEBOOK FORMATTING
+    // -------------------------------------------------------------------------
     {
         "key": "shift+alt+f",
         "command": "-notebook.formatCell",
@@ -171,16 +189,25 @@
         "command": "notebook.format",
         "when": "notebookEditable && !editorTextFocus && activeEditor == 'workbench.editor.notebook'"
     },
+
+    // -------------------------------------------------------------------------
+    // 07. SEARCH
+    // -------------------------------------------------------------------------
     {
-        "key": "ctrl+k",
-        "command": "-smart-search.openSearchPopup"
+        "key": "ctrl+shift+j",
+        "command": "-workbench.action.search.toggleQueryDetails",
+        "when": "inSearchEditor || searchViewletFocus"
     },
     {
-        "key": "ctrl+alt+f",
+        "key": "ctrl+k",
         "command": "-smart-search.openSearchPopup"
     },
     {
         "key": "ctrl+alt+p",
         "command": "smart-search.openSearchPopup"
     },
+    {
+        "key": "ctrl+alt+f",
+        "command": "-smart-search.openSearchPopup"
+    }
 ]
